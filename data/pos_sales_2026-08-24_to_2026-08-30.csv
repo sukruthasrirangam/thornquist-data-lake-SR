@@ -1,0 +1,1052 @@
+transaction_id,store_id,store_name,region,sale_date,category,product_name,quantity,unit_price,payment_method,cust_num
+500000,1,Toronto Yonge St,Ontario,2026-08-24,Accessories,Dry Bag 20L,1,100.85,MASTERCARD,0000000
+500001,1,Toronto Yonge St,Ontario,2026-08-24,Camping,Trekking Pole Pair,1,114.09,MASTERCARD,100101
+500002,1,Toronto Yonge St,Ontario,2026-08-24,Apparel,Merino Base Layer,1,68.87,VISA,100337
+500003,1,Toronto Yonge St,Ontario,2026-08-24,Accessories,Dry Bag 20L,1,277.14,VISA,0000000
+500004,1,Toronto Yonge St,Ontario,2026-08-24,Camping,2-Person Tent,1,207.28,VISA,100167
+500005,1,Toronto Yonge St,Ontario,2026-08-24,Camping,Sleeping Bag -10C,1,253.64,GIFT_CARD,100052
+500006,1,Toronto Yonge St,Ontario,2026-08-24,Accessories,Dry Bag 20L,1,153.38,GIFT_CARD,0000000
+500007,1,Toronto Yonge St,Ontario,2026-08-24,Accessories,  Hydration Pack ,2,151.4,AMEX,100128
+500008,1,Toronto Yonge St,Ontario,2026-08-24,Footwear,Trail Runner Low,1,306.01,VISA,100352
+500009,1,Toronto Yonge St,Ontario,2026-08-24,Apparel,Rain Shell,1,201.52,DEBIT,0000000
+500010,1,Toronto Yonge St,Ontario,2026-08-24,Apparel,Softshell Jacket,1,99.24,DEBIT,100192
+500011,2,Toronto Scarborough,Ontario,2026-08-24,Apparel,Down Vest,2,264.77,MASTERCARD,100001
+500012,2,Toronto Scarborough,Ontario,2026-08-24,Apparel,Down Vest,1,139.32,VISA,100049
+500013,2,Toronto Scarborough,Ontario,2026-08-24,Footwear,Alpine Hiking Shoe,1,194.22,VISA,100270
+500014,2,Toronto Scarborough,Ontario,2026-08-24,Apparel,Down Vest,1,279.22,VISA,100091
+500015,2,Toronto Scarborough,Ontario,2026-08-24,Camping,Camp Stove,1,140.72,DEBIT,0000000
+500016,2,Toronto Scarborough,Ontario,2026-08-24,Camping,Sleeping Pad,1,238.56,GIFT_CARD,100010
+500017,2,Toronto Scarborough,Ontario,2026-08-24,Apparel,Rain Shell,1,174.66,AMEX,100297
+500018,2,Toronto Scarborough,Ontario,2026-08-24,Accessories,Wool Socks 3-Pack,1,33.61,DEBIT,100066
+500019,2,Toronto Scarborough,Ontario,2026-08-24,Footwear,Insulated Winter Boot,1,139.5,GIFT_CARD,0000000
+500020,2,Toronto Scarborough,Ontario,2026-08-24,Apparel,Rain Shell,1,148.6,VISA,100194
+500021,2,Toronto Scarborough,Ontario,2026-08-24,Footwear,Trail Runner Low,1,204.22,MASTERCARD,100064
+500022,2,Toronto Scarborough,Ontario,2026-08-24,Camping,2-Person Tent,1,152.46,DEBIT,0000000
+500023,2,Toronto Scarborough,Ontario,2026-08-24,Apparel,Softshell Jacket,1,162.78,GIFT_CARD,100293
+500024,3,Ottawa Rideau,Ontario,2026-08-24,Apparel,Merino Base Layer,1,284.01,GIFT_CARD,100312
+500025,3,Ottawa Rideau,Ontario,2026-08-24,Accessories,Headlamp 300lm,1,108.75,DEBIT,100348
+500026,3,Ottawa Rideau,Ontario,2026-08-24,Apparel,Fleece Pullover,3,107.29,GIFT_CARD,100221
+500027,3,Ottawa Rideau,Ontario,2026-08-24,Apparel,Down Vest,1,139.33,GIFT_CARD,0000000
+500028,3,Ottawa Rideau,Ontario,2026-08-24,Accessories,Dry Bag 20L,1,239.88,GIFT_CARD,100139
+500029,3,Ottawa Rideau,Ontario,2026-08-24,Apparel,Softshell Jacket,2,294.09,AMEX,100171
+500030,3,Ottawa Rideau,Ontario,2026-08-24,Footwear,Trailrunner Boot,1,303.54,DEBIT,100328
+500031,3,Ottawa Rideau,Ontario,2026-08-24,Camping,Sleeping Pad,1,274.62,VISA,0000000
+500032,3,Ottawa Rideau,Ontario,2026-08-24,Camping,Camp Stove,1,284.8,MASTERCARD,100343
+500033,3,Ottawa Rideau,Ontario,2026-08-24,Footwear,Trailrunner Boot,2,274.47,MASTERCARD,100173
+500034,3,Ottawa Rideau,Ontario,2026-08-24,Accessories,Carabiner 4-Pack,1,76.6,AMEX,100082
+500035,3,Ottawa Rideau,Ontario,2026-08-24,Apparel,Merino Base Layer,1,293.18,GIFT_CARD,0000000
+500036,3,Ottawa Rideau,Ontario,2026-08-24,Footwear,Alpine Hiking Shoe,1,231.28,GIFT_CARD,100399
+500037,4,Montreal Ste-Catherine,Quebec,2026-08-24,Accessories,Hydration Pack,1,100.07,DEBIT,100242
+500038,4,Montreal Ste-Catherine,Quebec,2026-08-24,Apparel,Fleece Pullover,1,180.87,MASTERCARD,100030
+500039,4,Montreal Ste-Catherine,Quebec,2026-08-24,Camping,Camp Stove,1,137.37,MASTERCARD,100323
+500040,4,Montreal Ste-Catherine,Quebec,2026-08-24,Accessories,Wool Socks 3-Pack,2,263.79,MASTERCARD,100195
+500041,4,Montreal Ste-Catherine,Quebec,2026-08-24,Apparel,Down Vest,1,43.35,MASTERCARD,100232
+500042,4,Montreal Ste-Catherine,Quebec,2026-08-24,Apparel,Fleece Pullover,1,150.61,AMEX,0000000
+500043,4,Montreal Ste-Catherine,Quebec,2026-08-24,Camping,Camp Stove,1,308.71,AMEX,100266
+500044,4,Montreal Ste-Catherine,Quebec,2026-08-24,Camping,Trekking Pole Pair,1,211.55,GIFT_CARD,100301
+500045,4,Montreal Ste-Catherine,Quebec,2026-08-24,Camping,Camp Stove,1,160.3,DEBIT,0000000
+500046,5,Quebec City Laurier,Quebec,2026-08-24,Accessories,Carabiner 4-Pack,1,50.87,DEBIT,100290
+500047,5,Quebec City Laurier,Quebec,2026-08-24,Accessories,Carabiner 4-Pack,1,154.63,GIFT_CARD,100127
+500048,5,Quebec City Laurier,Quebec,2026-08-24,Camping,Sleeping Pad,2,176.59,VISA,100291
+500049,5,Quebec City Laurier,Quebec,2026-08-24,Accessories,Wool Socks 3-Pack,1,219.57,DEBIT,100329
+500050,5,Quebec City Laurier,Quebec,2026-08-24,Apparel,Merino Base Layer,3,38.59,VISA,100254
+500051,5,Quebec City Laurier,Quebec,2026-08-24,Apparel,Fleece Pullover,1,182.25,DEBIT,100286
+500052,5,Quebec City Laurier,Quebec,2026-08-24,Apparel,Softshell Jacket,2,136.6,MASTERCARD,100057
+500053,5,Quebec City Laurier,Quebec,2026-08-24,Apparel,Merino Base Layer,2,168.96,DEBIT,100319
+500054,5,Quebec City Laurier,Quebec,2026-08-24,Apparel,Rain Shell,1,300.01,GIFT_CARD,100035
+500055,5,Quebec City Laurier,Quebec,2026-08-24,Footwear,Trail Runner Low,1,59.85,AMEX,100190
+500056,5,Quebec City Laurier,Quebec,2026-08-24,Footwear,Alpine Hiking Shoe,3,266.18,AMEX,100293
+500057,5,Quebec City Laurier,Quebec,2026-08-24,Footwear,Alpine Hiking Shoe,1,209.38,AMEX,0000000
+500058,5,Quebec City Laurier,Quebec,2026-08-24,Apparel,Rain Shell,1,39.95,MASTERCARD,100244
+500059,5,Quebec City Laurier,Quebec,2026-08-24,Camping,Sleeping Pad,1,260.37,GIFT_CARD,100300
+500060,5,Quebec City Laurier,Quebec,2026-08-24,Camping,Sleeping Pad,3,292.97,DEBIT,100363
+500061,5,Quebec City Laurier,Quebec,2026-08-24,Apparel,Softshell Jacket,2,167.84,DEBIT,100283
+500062,5,Quebec City Laurier,Quebec,2026-08-24,Apparel,Fleece Pullover,1,260.18,GIFT_CARD,100260
+500063,5,Quebec City Laurier,Quebec,2026-08-24,Camping,Sleeping Pad,3,258.1,DEBIT,0000000
+500064,5,Quebec City Laurier,Quebec,2026-08-24,Accessories,Wool Socks 3-Pack,2,58.44,AMEX,0000000
+500065,5,Quebec City Laurier,Quebec,2026-08-24,Footwear,Trail Runner Low,2,93.62,DEBIT,100349
+500066,5,Quebec City Laurier,Quebec,2026-08-24,Footwear,Trail Runner Low,1,70.17,AMEX,0000000
+500067,6,Vancouver Robson,British Columbia,2026-08-24,Accessories,  Carabiner 4-Pack ,1,303.34,MASTERCARD,0000000
+500068,6,Vancouver Robson,British Columbia,2026-08-24,Camping,Sleeping Pad,1,45.06,VISA,100262
+500069,6,Vancouver Robson,British Columbia,2026-08-24,Footwear,Alpine Hiking Shoe,1,247.35,GIFT_CARD,100315
+500070,6,Vancouver Robson,British Columbia,2026-08-24,Apparel,Fleece Pullover,1,88.86,MASTERCARD,100138
+500071,6,Vancouver Robson,British Columbia,2026-08-24,Accessories,Dry Bag 20L,1,313.83,MASTERCARD,100136
+500072,6,Vancouver Robson,British Columbia,2026-08-24,Footwear,Alpine Hiking Shoe,1,161.18,GIFT_CARD,0000000
+500073,6,Vancouver Robson,British Columbia,2026-08-24,Apparel,Merino Base Layer,1,152.88,AMEX,100158
+500074,6,Vancouver Robson,British Columbia,2026-08-24,Accessories,Wool Socks 3-Pack,1,83.93,AMEX,0000000
+500075,6,Vancouver Robson,British Columbia,2026-08-24,Apparel,Merino Base Layer,1,295.13,VISA,100247
+500076,6,Vancouver Robson,British Columbia,2026-08-24,Accessories,Carabiner 4-Pack,1,269.88,VISA,0000000
+500077,6,Vancouver Robson,British Columbia,2026-08-24,Apparel,Merino Base Layer,1,206.94,AMEX,100229
+500078,6,Vancouver Robson,British Columbia,2026-08-24,Accessories,Dry Bag 20L,1,19.05,GIFT_CARD,100396
+500079,6,Vancouver Robson,British Columbia,2026-08-24,Accessories,Hydration Pack,1,54.24,AMEX,100096
+500080,7,Victoria Douglas,British Columbia,2026-08-24,Footwear,Alpine Hiking Shoe,1,141.03,VISA,100382
+500081,7,Victoria Douglas,British Columbia,2026-08-24,Apparel,Merino Base Layer,1,298.42,MASTERCARD,0000000
+500082,7,Victoria Douglas,British Columbia,2026-08-24,Footwear,Trail Runner Low,1,247.32,VISA,100153
+500083,7,Victoria Douglas,British Columbia,2026-08-24,Footwear,Trailrunner Boot,1,276.05,MASTERCARD,0000000
+500084,7,Victoria Douglas,British Columbia,2026-08-24,Footwear,Trailrunner Boot,1,76.81,VISA,100224
+500085,7,Victoria Douglas,British Columbia,2026-08-24,Camping,Sleeping Bag -10C,1,318.38,MASTERCARD,100011
+500086,7,Victoria Douglas,British Columbia,2026-08-24,Apparel,Fleece Pullover,1,197.15,GIFT_CARD,100230
+500087,7,Victoria Douglas,British Columbia,2026-08-24,Apparel,Softshell Jacket,1,96.42,VISA,0000000
+500088,7,Victoria Douglas,British Columbia,2026-08-24,Apparel,Rain Shell,1,241.99,GIFT_CARD,100342
+500089,8,Calgary Stephen Ave,Alberta,2026-08-24,Accessories,Hydration Pack,2,258.11,AMEX,0000000
+500090,8,Calgary Stephen Ave,Alberta,2026-08-24,Footwear,Alpine Hiking Shoe,1,268.5,MASTERCARD,100373
+500091,8,Calgary Stephen Ave,Alberta,2026-08-24,Accessories,Hydration Pack,1,94.38,DEBIT,100331
+500092,8,Calgary Stephen Ave,Alberta,2026-08-24,Camping,Sleeping Bag -10C,2,28.64,GIFT_CARD,100152
+500093,8,Calgary Stephen Ave,Alberta,2026-08-24,Apparel,Softshell Jacket,1,133.69,GIFT_CARD,100234
+500094,8,Calgary Stephen Ave,Alberta,2026-08-24,Camping,Sleeping Bag -10C,2,143.18,GIFT_CARD,100173
+500095,8,Calgary Stephen Ave,Alberta,2026-08-24,Camping,Sleeping Bag -10C,1,312.72,AMEX,100259
+500096,8,Calgary Stephen Ave,Alberta,2026-08-24,Footwear,Alpine Hiking Shoe,1,230.84,VISA,100379
+500097,8,Calgary Stephen Ave,Alberta,2026-08-24,Footwear,Insulated Winter Boot,1,96.42,AMEX,100004
+500098,8,Calgary Stephen Ave,Alberta,2026-08-24,Accessories,Hydration Pack,1,46.07,VISA,0000000
+500099,8,Calgary Stephen Ave,Alberta,2026-08-24,Apparel,Down Vest,1,229.5,MASTERCARD,0000000
+500100,8,Calgary Stephen Ave,Alberta,2026-08-24,Accessories,Carabiner 4-Pack,1,139.53,MASTERCARD,100069
+500101,8,Calgary Stephen Ave,Alberta,2026-08-24,Accessories,Headlamp 300lm,1,25.54,DEBIT,0000000
+500102,8,Calgary Stephen Ave,Alberta,2026-08-24,Apparel,Merino Base Layer,1,267.78,DEBIT,100387
+500103,8,Calgary Stephen Ave,Alberta,2026-08-24,Camping,Sleeping Bag -10C,1,319.43,MASTERCARD,100063
+500104,8,Calgary Stephen Ave,Alberta,2026-08-24,Apparel,Merino Base Layer,1,235.77,AMEX,100204
+500105,8,Calgary Stephen Ave,Alberta,2026-08-24,Footwear,Alpine Hiking Shoe,1,211.55,VISA,100349
+500106,8,Calgary Stephen Ave,Alberta,2026-08-24,Camping,Sleeping Pad,1,63.66,VISA,0000000
+500107,9,Edmonton Whyte Ave,Alberta,2026-08-24,Apparel,Softshell Jacket,1,125.8,VISA,100205
+500108,9,Edmonton Whyte Ave,Alberta,2026-08-24,Accessories,Hydration Pack,1,274.66,GIFT_CARD,100117
+500109,9,Edmonton Whyte Ave,Alberta,2026-08-24,Camping,Sleeping Bag -10C,1,230.23,GIFT_CARD,100380
+500110,9,Edmonton Whyte Ave,Alberta,2026-08-24,Accessories,Headlamp 300lm,1,204.44,VISA,100372
+500111,9,Edmonton Whyte Ave,Alberta,2026-08-24,Footwear,Alpine Hiking Shoe,3,137.48,MASTERCARD,100375
+500112,9,Edmonton Whyte Ave,Alberta,2026-08-24,Camping,Sleeping Bag -10C,1,135.14,GIFT_CARD,100201
+500113,9,Edmonton Whyte Ave,Alberta,2026-08-24,Apparel,Down Vest,1,161.49,DEBIT,100359
+500114,9,Edmonton Whyte Ave,Alberta,2026-08-24,Apparel,Rain Shell,1,248.88,DEBIT,100186
+500115,9,Edmonton Whyte Ave,Alberta,2026-08-24,Camping,2-Person Tent,1,245.75,VISA,100078
+500116,9,Edmonton Whyte Ave,Alberta,2026-08-24,Accessories,Dry Bag 20L,1,74.83,DEBIT,100284
+500117,9,Edmonton Whyte Ave,Alberta,2026-08-24,Accessories,Carabiner 4-Pack,1,40.78,AMEX,0000000
+500118,9,Edmonton Whyte Ave,Alberta,2026-08-24,Camping,Sleeping Pad,1,195.17,MASTERCARD,100182
+500119,9,Edmonton Whyte Ave,Alberta,2026-08-24,Footwear,Insulated Winter Boot,1,102.59,GIFT_CARD,100058
+500120,9,Edmonton Whyte Ave,Alberta,2026-08-24,Camping,Sleeping Bag -10C,1,279.66,GIFT_CARD,100090
+500121,9,Edmonton Whyte Ave,Alberta,2026-08-24,Footwear,Insulated Winter Boot,1,227.88,DEBIT,100391
+500122,10,Halifax Spring Garden,Atlantic,2026-08-24,Footwear,Trail Runner Low,1,197.15,AMEX,100293
+500123,10,Halifax Spring Garden,Atlantic,2026-08-24,Apparel,Rain Shell,1,198.81,GIFT_CARD,100370
+500124,10,Halifax Spring Garden,Atlantic,2026-08-24,Accessories,Hydration Pack,1,270.34,DEBIT,100106
+500125,10,Halifax Spring Garden,Atlantic,24/08/2026,Apparel,Down Vest,2,249.44,DEBIT,100318
+500126,10,Halifax Spring Garden,Atlantic,2026-08-24,Camping,Sleeping Bag -10C,1,62.87,AMEX,100011
+500127,10,Halifax Spring Garden,Atlantic,2026-08-24,Camping,2-Person Tent,1,127.35,AMEX,100286
+500128,10,Halifax Spring Garden,Atlantic,24/08/2026,Apparel,Down Vest,1,101.86,GIFT_CARD,100187
+500129,10,Halifax Spring Garden,Atlantic,2026-08-24,Footwear,Trailrunner Boot,1,70.48,DEBIT,0000000
+500130,10,Halifax Spring Garden,Atlantic,2026-08-24,Apparel,Rain Shell,1,133.51,MASTERCARD,100190
+500131,10,Halifax Spring Garden,Atlantic,2026-08-24,Accessories,Headlamp 300lm,2,152.54,AMEX,100293
+500132,10,Halifax Spring Garden,Atlantic,2026-08-24,Footwear,Alpine Hiking Shoe,1,41.1,GIFT_CARD,0000000
+500133,10,Halifax Spring Garden,Atlantic,2026-08-24,Footwear,Alpine Hiking Shoe,1,146.23,AMEX,100249
+500134,10,Halifax Spring Garden,Atlantic,24/08/2026,Camping,Sleeping Bag -10C,1,248.86,AMEX,0000000
+500135,10,Halifax Spring Garden,Atlantic,24/08/2026,Apparel,Fleece Pullover,1,208.72,VISA,100301
+500136,10,Halifax Spring Garden,Atlantic,2026-08-24,Footwear,Trailrunner Boot,1,262.23,DEBIT,100154
+500137,10,Halifax Spring Garden,Atlantic,2026-08-24,Footwear,Insulated Winter Boot,1,109.83,AMEX,0000000
+500138,10,Halifax Spring Garden,Atlantic,2026-08-24,Footwear,Trail Runner Low,1,149.11,MASTERCARD,100038
+500139,10,Halifax Spring Garden,Atlantic,2026-08-24,Camping,Sleeping Bag -10C,1,161.83,AMEX,100161
+500140,1,Toronto Yonge St,Ontario,2026-08-25,Apparel,Rain Shell,1,218.44,MASTERCARD,100337
+500141,1,Toronto Yonge St,Ontario,2026-08-25,Camping,2-Person Tent,1,276.46,AMEX,100310
+500142,1,Toronto Yonge St,Ontario,2026-08-25,Camping,Camp Stove,1,258.5,DEBIT,100268
+500143,1,Toronto Yonge St,Ontario,2026-08-25,Apparel,Fleece Pullover,2,245.05,DEBIT,100321
+500144,1,Toronto Yonge St,Ontario,2026-08-25,Apparel,Down Vest,1,264.38,MASTERCARD,100087
+500145,1,Toronto Yonge St,Ontario,2026-08-25,Accessories,Hydration Pack,1,152.33,AMEX,100108
+500146,1,Toronto Yonge St,Ontario,2026-08-25,Camping,2-Person Tent,2,158.62,AMEX,100180
+500147,1,Toronto Yonge St,Ontario,2026-08-25,Apparel,Rain Shell,1,60.48,AMEX,100207
+500148,1,Toronto Yonge St,Ontario,2026-08-25,Footwear,Trailrunner Boot,1,104.03,MASTERCARD,100388
+500149,1,Toronto Yonge St,Ontario,2026-08-25,Accessories,Wool Socks 3-Pack,2,244.64,GIFT_CARD,100343
+500150,1,Toronto Yonge St,Ontario,2026-08-25,Camping,Camp Stove,2,130.6,DEBIT,100014
+500151,1,Toronto Yonge St,Ontario,2026-08-25,Footwear,Trail Runner Low,1,93.22,GIFT_CARD,100348
+500152,1,Toronto Yonge St,Ontario,2026-08-25,Apparel,Fleece Pullover,1,149.63,DEBIT,100266
+500153,1,Toronto Yonge St,Ontario,2026-08-25,Footwear,Trail Runner Low,1,246.29,AMEX,100006
+500154,1,Toronto Yonge St,Ontario,2026-08-25,Accessories,Wool Socks 3-Pack,1,269.89,GIFT_CARD,100144
+500155,1,Toronto Yonge St,Ontario,2026-08-25,Accessories,Hydration Pack,1,210.56,DEBIT,100394
+500156,1,Toronto Yonge St,Ontario,2026-08-25,Accessories,Carabiner 4-Pack,1,60.58,AMEX,100358
+500157,1,Toronto Yonge St,Ontario,2026-08-25,Apparel,Fleece Pullover,1,26.04,MASTERCARD,100010
+500158,2,Toronto Scarborough,Ontario,2026-08-25,Footwear,Trailrunner Boot,1,34.44,VISA,100208
+500159,2,Toronto Scarborough,Ontario,2026-08-25,Accessories,Wool Socks 3-Pack,1,224.18,VISA,100367
+500160,2,Toronto Scarborough,Ontario,2026-08-25,Footwear,Alpine Hiking Shoe,1,304.37,DEBIT,100327
+500161,2,Toronto Scarborough,Ontario,2026-08-25,Camping,Trekking Pole Pair,1,137.95,AMEX,100040
+500162,2,Toronto Scarborough,Ontario,2026-08-25,Accessories,Wool Socks 3-Pack,1,141.35,MASTERCARD,100135
+500163,2,Toronto Scarborough,Ontario,2026-08-25,Footwear,  Trailrunner Boot ,1,119.36,DEBIT,100325
+500164,2,Toronto Scarborough,Ontario,2026-08-25,Camping,Sleeping Pad,1,106.25,VISA,100201
+500165,2,Toronto Scarborough,Ontario,2026-08-25,Apparel,Down Vest,1,215.31,GIFT_CARD,100391
+500166,2,Toronto Scarborough,Ontario,2026-08-25,Camping,Trekking Pole Pair,1,304.55,GIFT_CARD,100134
+500167,2,Toronto Scarborough,Ontario,2026-08-25,Footwear,Trailrunner Boot,3,38.46,VISA,100222
+500168,2,Toronto Scarborough,Ontario,2026-08-25,Camping,2-Person Tent,1,23.44,VISA,100240
+500169,2,Toronto Scarborough,Ontario,2026-08-25,Camping,2-Person Tent,2,251.97,VISA,100107
+500170,2,Toronto Scarborough,Ontario,2026-08-25,Footwear,Alpine Hiking Shoe,1,37.69,VISA,100017
+500171,2,Toronto Scarborough,Ontario,2026-08-25,Accessories,Wool Socks 3-Pack,1,103.05,AMEX,0000000
+500172,2,Toronto Scarborough,Ontario,2026-08-25,Accessories,Dry Bag 20L,1,181.41,GIFT_CARD,100309
+500173,2,Toronto Scarborough,Ontario,2026-08-25,Camping,2-Person Tent,1,162.85,GIFT_CARD,100103
+500174,3,Ottawa Rideau,Ontario,2026-08-25,Camping,Camp Stove,1,188.23,AMEX,100289
+500175,3,Ottawa Rideau,Ontario,2026-08-25,Camping,2-Person Tent,1,179.01,MASTERCARD,100032
+500176,3,Ottawa Rideau,Ontario,2026-08-25,Camping,Sleeping Pad,1,56.51,AMEX,100282
+500177,3,Ottawa Rideau,Ontario,2026-08-25,Footwear,Insulated Winter Boot,1,177.84,VISA,100184
+500178,3,Ottawa Rideau,Ontario,2026-08-25,Camping,  Trekking Pole Pair ,1,317.81,DEBIT,100064
+500179,3,Ottawa Rideau,Ontario,2026-08-25,Camping,Sleeping Bag -10C,1,261.96,VISA,100252
+500180,3,Ottawa Rideau,Ontario,2026-08-25,Footwear,Alpine Hiking Shoe,2,199.9,AMEX,0000000
+500181,3,Ottawa Rideau,Ontario,2026-08-25,Accessories,Carabiner 4-Pack,3,155.31,AMEX,0000000
+500182,3,Ottawa Rideau,Ontario,2026-08-25,Apparel,Softshell Jacket,1,123.58,MASTERCARD,100381
+500183,3,Ottawa Rideau,Ontario,2026-08-25,Footwear,Insulated Winter Boot,1,120.61,DEBIT,100362
+500184,4,Montreal Ste-Catherine,Quebec,2026-08-25,Footwear,Trail Runner Low,1,105.29,GIFT_CARD,100299
+500185,4,Montreal Ste-Catherine,Quebec,2026-08-25,Accessories,Wool Socks 3-Pack,2,49.39,AMEX,0000000
+500186,4,Montreal Ste-Catherine,Quebec,25/08/2026,Footwear,Trail Runner Low,1,111.18,MASTERCARD,100263
+500187,4,Montreal Ste-Catherine,Quebec,2026-08-25,Accessories,Wool Socks 3-Pack,2,279.2,VISA,100261
+500188,4,Montreal Ste-Catherine,Quebec,2026-08-25,Apparel,Fleece Pullover,1,47.93,VISA,100220
+500189,4,Montreal Ste-Catherine,Quebec,2026-08-25,Accessories,Wool Socks 3-Pack,1,28.36,AMEX,0000000
+500190,4,Montreal Ste-Catherine,Quebec,2026-08-25,Footwear,Trail Runner Low,1,221.9,VISA,100209
+500191,4,Montreal Ste-Catherine,Quebec,2026-08-25,Camping,2-Person Tent,1,110.3,MASTERCARD,100161
+500192,4,Montreal Ste-Catherine,Quebec,2026-08-25,Apparel,Merino Base Layer,3,252.53,VISA,100286
+500193,4,Montreal Ste-Catherine,Quebec,2026-08-25,Apparel,Rain Shell,3,29.44,GIFT_CARD,100203
+500194,4,Montreal Ste-Catherine,Quebec,2026-08-25,Footwear,Insulated Winter Boot,1,132.65,AMEX,0000000
+500195,4,Montreal Ste-Catherine,Quebec,2026-08-25,Camping,Sleeping Bag -10C,1,48.09,GIFT_CARD,100347
+500196,4,Montreal Ste-Catherine,Quebec,2026-08-25,Camping,Camp Stove,1,270.81,MASTERCARD,100325
+500197,4,Montreal Ste-Catherine,Quebec,2026-08-25,Apparel,Softshell Jacket,1,266.41,VISA,0000000
+500198,4,Montreal Ste-Catherine,Quebec,2026-08-25,Accessories,Headlamp 300lm,1,79.5,MASTERCARD,0000000
+500199,4,Montreal Ste-Catherine,Quebec,2026-08-25,Footwear,Alpine Hiking Shoe,1,51.79,VISA,100366
+500200,4,Montreal Ste-Catherine,Quebec,2026-08-25,Footwear,Trail Runner Low,2,55.43,MASTERCARD,0000000
+500201,4,Montreal Ste-Catherine,Quebec,2026-08-25,Camping,Sleeping Bag -10C,1,242.5,VISA,100161
+500202,4,Montreal Ste-Catherine,Quebec,2026-08-25,Accessories,Headlamp 300lm,1,187.64,VISA,100259
+500203,4,Montreal Ste-Catherine,Quebec,2026-08-25,Camping,2-Person Tent,1,52.54,GIFT_CARD,100077
+500204,4,Montreal Ste-Catherine,Quebec,2026-08-25,Camping,Trekking Pole Pair,2,191.44,MASTERCARD,100107
+500205,4,Montreal Ste-Catherine,Quebec,2026-08-25,Camping,Sleeping Pad,1,32.02,AMEX,100201
+500206,5,Quebec City Laurier,Quebec,2026-08-25,Apparel,Merino Base Layer,1,132.31,MASTERCARD,100305
+500207,5,Quebec City Laurier,Quebec,2026-08-25,Apparel,Fleece Pullover,1,312.15,AMEX,100321
+500208,5,Quebec City Laurier,Quebec,2026-08-25,Footwear,Alpine Hiking Shoe,1,116.62,DEBIT,100351
+500209,5,Quebec City Laurier,Quebec,2026-08-25,Footwear,Alpine Hiking Shoe,1,192.4,VISA,100047
+500210,5,Quebec City Laurier,Quebec,2026-08-25,Footwear,Trailrunner Boot,1,135.27,MASTERCARD,0000000
+500211,5,Quebec City Laurier,Quebec,2026-08-25,Camping,Sleeping Pad,1,121.14,VISA,100119
+500212,5,Quebec City Laurier,Quebec,2026-08-25,Apparel,Rain Shell,1,25.97,VISA,100081
+500213,5,Quebec City Laurier,Quebec,2026-08-25,Camping,2-Person Tent,1,124.53,GIFT_CARD,100051
+500214,5,Quebec City Laurier,Quebec,2026-08-25,Apparel,Softshell Jacket,1,73.37,MASTERCARD,100081
+500215,5,Quebec City Laurier,Quebec,2026-08-25,Camping,Camp Stove,1,215.72,AMEX,100236
+500216,5,Quebec City Laurier,Quebec,2026-08-25,Camping,Camp Stove,1,162.25,AMEX,100332
+500217,5,Quebec City Laurier,Quebec,2026-08-25,Accessories,Carabiner 4-Pack,1,257.98,GIFT_CARD,100101
+500218,5,Quebec City Laurier,Quebec,2026-08-25,Footwear,Insulated Winter Boot,1,94.36,GIFT_CARD,100221
+500219,5,Quebec City Laurier,Quebec,2026-08-25,Footwear,Insulated Winter Boot,1,118.97,DEBIT,100299
+500220,5,Quebec City Laurier,Quebec,2026-08-25,Apparel,Softshell Jacket,1,101.89,AMEX,100130
+500221,5,Quebec City Laurier,Quebec,2026-08-25,Accessories,Headlamp 300lm,1,236.94,VISA,100053
+500222,5,Quebec City Laurier,Quebec,2026-08-25,Camping,Camp Stove,1,28.75,MASTERCARD,100356
+500223,5,Quebec City Laurier,Quebec,2026-08-25,Apparel,Fleece Pullover,1,130.57,AMEX,100338
+500224,5,Quebec City Laurier,Quebec,2026-08-25,Apparel,Fleece Pullover,1,315.38,GIFT_CARD,100247
+500225,6,Vancouver Robson,British Columbia,2026-08-25,Apparel,Rain Shell,1,150.18,GIFT_CARD,100032
+500226,6,Vancouver Robson,British Columbia,2026-08-25,Footwear,Insulated Winter Boot,1,271.97,DEBIT,100176
+500227,6,Vancouver Robson,British Columbia,2026-08-25,Accessories,Carabiner 4-Pack,1,68.13,GIFT_CARD,100363
+500228,6,Vancouver Robson,British Columbia,2026-08-25,Camping,2-Person Tent,1,194.12,AMEX,0000000
+500229,6,Vancouver Robson,British Columbia,25/08/2026,Accessories,Hydration Pack,1,137.37,AMEX,0000000
+500230,6,Vancouver Robson,British Columbia,2026-08-25,Apparel,Down Vest,1,123.69,GIFT_CARD,100292
+500231,6,Vancouver Robson,British Columbia,2026-08-25,Apparel,Rain Shell,1,267.87,MASTERCARD,100038
+500232,6,Vancouver Robson,British Columbia,2026-08-25,Accessories,Headlamp 300lm,1,137.6,DEBIT,100204
+500233,6,Vancouver Robson,British Columbia,2026-08-25,Accessories,Dry Bag 20L,1,283.16,VISA,100178
+500234,6,Vancouver Robson,British Columbia,2026-08-25,Apparel,Fleece Pullover,1,277.37,MASTERCARD,100365
+500235,7,Victoria Douglas,British Columbia,2026-08-25,Accessories,Dry Bag 20L,3,139.77,MASTERCARD,100294
+500236,7,Victoria Douglas,British Columbia,2026-08-25,Accessories,Carabiner 4-Pack,1,174.85,DEBIT,100243
+500237,7,Victoria Douglas,British Columbia,2026-08-25,Accessories,Hydration Pack,1,68.3,GIFT_CARD,100076
+500238,7,Victoria Douglas,British Columbia,2026-08-25,Footwear,Insulated Winter Boot,2,212.11,MASTERCARD,100389
+500239,7,Victoria Douglas,British Columbia,2026-08-25,Apparel,Merino Base Layer,1,273.65,DEBIT,0000000
+500240,7,Victoria Douglas,British Columbia,2026-08-25,Accessories,Carabiner 4-Pack,1,75.86,MASTERCARD,100189
+500241,7,Victoria Douglas,British Columbia,2026-08-25,Footwear,Trail Runner Low,1,75.42,VISA,100261
+500242,7,Victoria Douglas,British Columbia,2026-08-25,Camping,Trekking Pole Pair,2,194.46,AMEX,100384
+500243,7,Victoria Douglas,British Columbia,2026-08-25,Camping,2-Person Tent,1,96.46,GIFT_CARD,100364
+500244,7,Victoria Douglas,British Columbia,2026-08-25,Camping,Sleeping Pad,1,128.35,VISA,100267
+500245,7,Victoria Douglas,British Columbia,2026-08-25,Camping,Camp Stove,1,52.85,GIFT_CARD,100108
+500246,7,Victoria Douglas,British Columbia,2026-08-25,Camping,2-Person Tent,1,222.81,AMEX,100151
+500247,7,Victoria Douglas,British Columbia,2026-08-25,Accessories,Headlamp 300lm,1,238.68,GIFT_CARD,100335
+500248,7,Victoria Douglas,British Columbia,2026-08-25,Camping,Camp Stove,1,156.24,VISA,100287
+500249,7,Victoria Douglas,British Columbia,2026-08-25,Camping,2-Person Tent,1,93.94,VISA,100248
+500250,8,Calgary Stephen Ave,Alberta,2026-08-25,Camping,Sleeping Bag -10C,1,223.56,VISA,100266
+500251,8,Calgary Stephen Ave,Alberta,2026-08-25,Accessories,Hydration Pack,1,98.45,VISA,100037
+500252,8,Calgary Stephen Ave,Alberta,2026-08-25,Camping,2-Person Tent,1,285.11,GIFT_CARD,0000000
+500253,8,Calgary Stephen Ave,Alberta,2026-08-25,Accessories,Headlamp 300lm,3,181.83,VISA,100110
+500254,8,Calgary Stephen Ave,Alberta,2026-08-25,Accessories,Dry Bag 20L,1,237.16,DEBIT,100262
+500255,8,Calgary Stephen Ave,Alberta,2026-08-25,Footwear,Alpine Hiking Shoe,1,141.55,DEBIT,100223
+500256,8,Calgary Stephen Ave,Alberta,2026-08-25,Apparel,Rain Shell,1,78.96,GIFT_CARD,100127
+500257,8,Calgary Stephen Ave,Alberta,2026-08-25,Apparel,Rain Shell,1,91.6,GIFT_CARD,100391
+500258,8,Calgary Stephen Ave,Alberta,2026-08-25,Camping,Camp Stove,1,255.91,MASTERCARD,100166
+500259,8,Calgary Stephen Ave,Alberta,2026-08-25,Apparel,Fleece Pullover,1,204.9,VISA,0000000
+500260,8,Calgary Stephen Ave,Alberta,2026-08-25,Footwear,Alpine Hiking Shoe,1,20.56,DEBIT,100338
+500261,8,Calgary Stephen Ave,Alberta,2026-08-25,Apparel,Softshell Jacket,1,290.56,DEBIT,0000000
+500262,8,Calgary Stephen Ave,Alberta,2026-08-25,Footwear,Trailrunner Boot,1,316.83,DEBIT,100303
+500263,8,Calgary Stephen Ave,Alberta,2026-08-25,Footwear,Trail Runner Low,1,293.16,VISA,100317
+500264,8,Calgary Stephen Ave,Alberta,2026-08-25,Footwear,Insulated Winter Boot,1,277.32,GIFT_CARD,100000
+500265,8,Calgary Stephen Ave,Alberta,2026-08-25,Camping,Sleeping Bag -10C,1,144.46,DEBIT,100256
+500266,8,Calgary Stephen Ave,Alberta,2026-08-25,Accessories,Hydration Pack,1,254.14,DEBIT,100137
+500267,8,Calgary Stephen Ave,Alberta,2026-08-25,Footwear,Insulated Winter Boot,1,251.45,GIFT_CARD,0000000
+500268,8,Calgary Stephen Ave,Alberta,2026-08-25,Camping,2-Person Tent,1,29.2,GIFT_CARD,100179
+500269,8,Calgary Stephen Ave,Alberta,2026-08-25,Accessories,Wool Socks 3-Pack,1,134.49,MASTERCARD,100363
+500270,9,Edmonton Whyte Ave,Alberta,2026-08-25,Camping,Sleeping Bag -10C,1,166.3,MASTERCARD,0000000
+500271,9,Edmonton Whyte Ave,Alberta,2026-08-25,Apparel,Down Vest,1,313.74,VISA,100328
+500272,9,Edmonton Whyte Ave,Alberta,2026-08-25,Camping,Sleeping Bag -10C,1,46.69,AMEX,100096
+500273,9,Edmonton Whyte Ave,Alberta,2026-08-25,Accessories,Carabiner 4-Pack,2,28.64,MASTERCARD,100331
+500274,9,Edmonton Whyte Ave,Alberta,2026-08-25,Accessories,Wool Socks 3-Pack,1,57.79,GIFT_CARD,0000000
+500275,9,Edmonton Whyte Ave,Alberta,2026-08-25,Accessories,Headlamp 300lm,1,66.91,DEBIT,0000000
+500276,9,Edmonton Whyte Ave,Alberta,2026-08-25,Accessories,Hydration Pack,1,22.97,AMEX,100144
+500277,9,Edmonton Whyte Ave,Alberta,2026-08-25,Accessories,Wool Socks 3-Pack,1,162.67,MASTERCARD,100193
+500278,10,Halifax Spring Garden,Atlantic,2026-08-25,Footwear,Insulated Winter Boot,1,185.01,GIFT_CARD,100141
+500279,10,Halifax Spring Garden,Atlantic,2026-08-25,Footwear,Alpine Hiking Shoe,1,288.74,AMEX,100141
+500280,10,Halifax Spring Garden,Atlantic,2026-08-25,Apparel,Softshell Jacket,1,30.89,VISA,100220
+500281,10,Halifax Spring Garden,Atlantic,25/08/2026,Camping,Camp Stove,1,306.93,AMEX,100053
+500282,10,Halifax Spring Garden,Atlantic,2026-08-25,Accessories,Wool Socks 3-Pack,1,135.39,GIFT_CARD,100377
+500283,10,Halifax Spring Garden,Atlantic,2026-08-25,Camping,Sleeping Bag -10C,2,61.1,AMEX,100107
+500284,10,Halifax Spring Garden,Atlantic,2026-08-25,Apparel,Merino Base Layer,1,132.9,MASTERCARD,0000000
+500285,10,Halifax Spring Garden,Atlantic,2026-08-25,Camping,Sleeping Bag -10C,1,142.75,DEBIT,100036
+500286,10,Halifax Spring Garden,Atlantic,2026-08-25,Accessories,Wool Socks 3-Pack,1,123.92,MASTERCARD,100280
+500287,10,Halifax Spring Garden,Atlantic,2026-08-25,Footwear,Insulated Winter Boot,1,62.16,MASTERCARD,0000000
+500288,10,Halifax Spring Garden,Atlantic,2026-08-25,Camping,Sleeping Bag -10C,1,173.95,AMEX,100181
+500289,10,Halifax Spring Garden,Atlantic,2026-08-25,Camping,Camp Stove,1,64.54,GIFT_CARD,0000000
+500290,10,Halifax Spring Garden,Atlantic,2026-08-25,Footwear,Alpine Hiking Shoe,1,109.26,AMEX,100032
+500291,10,Halifax Spring Garden,Atlantic,2026-08-25,Accessories,Hydration Pack,2,252.97,GIFT_CARD,100375
+500292,10,Halifax Spring Garden,Atlantic,2026-08-25,Apparel,Fleece Pullover,1,304.52,AMEX,0000000
+500293,10,Halifax Spring Garden,Atlantic,2026-08-25,Footwear,Trail Runner Low,1,165.54,VISA,100367
+500294,10,Halifax Spring Garden,Atlantic,2026-08-25,Camping,Sleeping Pad,1,298.21,MASTERCARD,100060
+500295,10,Halifax Spring Garden,Atlantic,2026-08-25,Apparel,Merino Base Layer,1,20.18,MASTERCARD,0000000
+500296,10,Halifax Spring Garden,Atlantic,2026-08-25,Camping,Trekking Pole Pair,1,155.92,VISA,100086
+500297,10,Halifax Spring Garden,Atlantic,2026-08-25,Accessories,Dry Bag 20L,1,46.45,VISA,100379
+500298,10,Halifax Spring Garden,Atlantic,2026-08-25,Apparel,Softshell Jacket,1,255.7,AMEX,100328
+500299,1,Toronto Yonge St,Ontario,2026-08-26,Accessories,Dry Bag 20L,1,154.41,VISA,0000000
+500300,1,Toronto Yonge St,Ontario,2026-08-26,Footwear,Trailrunner Boot,1,127.22,GIFT_CARD,100110
+500301,1,Toronto Yonge St,Ontario,26/08/2026,Footwear,Trail Runner Low,2,176.69,MASTERCARD,100289
+500302,1,Toronto Yonge St,Ontario,2026-08-26,Camping,Sleeping Bag -10C,1,299.33,VISA,100306
+500303,1,Toronto Yonge St,Ontario,2026-08-26,Camping,Sleeping Pad,1,64.16,VISA,100345
+500304,1,Toronto Yonge St,Ontario,2026-08-26,Apparel,Fleece Pullover,3,318.55,VISA,100267
+500305,1,Toronto Yonge St,Ontario,2026-08-26,Apparel,  Merino Base Layer ,2,249.58,MASTERCARD,100335
+500306,1,Toronto Yonge St,Ontario,2026-08-26,Camping,Camp Stove,1,177.14,GIFT_CARD,100323
+500307,1,Toronto Yonge St,Ontario,26/08/2026,Camping,Camp Stove,1,213.43,MASTERCARD,100256
+500308,1,Toronto Yonge St,Ontario,26/08/2026,Accessories,Carabiner 4-Pack,1,174.46,AMEX,100347
+500309,1,Toronto Yonge St,Ontario,2026-08-26,Apparel,Softshell Jacket,1,172.94,GIFT_CARD,0000000
+500310,2,Toronto Scarborough,Ontario,2026-08-26,Footwear,Trailrunner Boot,1,288.64,GIFT_CARD,100046
+500311,2,Toronto Scarborough,Ontario,2026-08-26,Camping,Trekking Pole Pair,1,305.5,VISA,100196
+500312,2,Toronto Scarborough,Ontario,2026-08-26,Camping,Sleeping Bag -10C,1,281.88,DEBIT,0000000
+500313,2,Toronto Scarborough,Ontario,2026-08-26,Footwear,Trail Runner Low,1,156.63,MASTERCARD,100290
+500314,2,Toronto Scarborough,Ontario,2026-08-26,Footwear,Trailrunner Boot,1,236.03,DEBIT,0000000
+500315,2,Toronto Scarborough,Ontario,2026-08-26,Camping,2-Person Tent,1,125.3,MASTERCARD,100395
+500316,2,Toronto Scarborough,Ontario,2026-08-26,Footwear,Trail Runner Low,1,280.48,MASTERCARD,100014
+500317,2,Toronto Scarborough,Ontario,2026-08-26,Apparel,Softshell Jacket,1,42.43,VISA,100299
+500318,2,Toronto Scarborough,Ontario,2026-08-26,Accessories,Hydration Pack,2,130.66,VISA,0000000
+500319,2,Toronto Scarborough,Ontario,2026-08-26,Apparel,Rain Shell,1,304.0,DEBIT,100213
+500320,2,Toronto Scarborough,Ontario,2026-08-26,Footwear,Trail Runner Low,2,87.37,VISA,0000000
+500321,2,Toronto Scarborough,Ontario,2026-08-26,Apparel,Down Vest,1,77.46,DEBIT,100331
+500322,2,Toronto Scarborough,Ontario,2026-08-26,Accessories,Headlamp 300lm,1,197.21,DEBIT,100100
+500323,2,Toronto Scarborough,Ontario,2026-08-26,Apparel,Fleece Pullover,1,216.83,AMEX,100354
+500324,2,Toronto Scarborough,Ontario,2026-08-26,Footwear,Trail Runner Low,1,181.73,MASTERCARD,100131
+500325,3,Ottawa Rideau,Ontario,2026-08-26,Camping,Sleeping Bag -10C,1,271.96,VISA,0000000
+500326,3,Ottawa Rideau,Ontario,2026-08-26,Apparel,Fleece Pullover,1,271.84,GIFT_CARD,100204
+500327,3,Ottawa Rideau,Ontario,2026-08-26,Footwear,Alpine Hiking Shoe,3,170.27,AMEX,100014
+500328,3,Ottawa Rideau,Ontario,2026-08-26,Footwear,Trail Runner Low,1,31.11,GIFT_CARD,100331
+500329,3,Ottawa Rideau,Ontario,2026-08-26,Camping,Camp Stove,1,54.09,GIFT_CARD,100072
+500330,3,Ottawa Rideau,Ontario,2026-08-26,Camping,Camp Stove,1,180.18,GIFT_CARD,100300
+500331,3,Ottawa Rideau,Ontario,2026-08-26,Apparel,Softshell Jacket,1,126.31,VISA,100381
+500332,3,Ottawa Rideau,Ontario,2026-08-26,Accessories,Wool Socks 3-Pack,1,266.5,MASTERCARD,100356
+500333,3,Ottawa Rideau,Ontario,2026-08-26,Apparel,Merino Base Layer,1,126.78,GIFT_CARD,100164
+500334,3,Ottawa Rideau,Ontario,2026-08-26,Apparel,Down Vest,1,294.25,VISA,100131
+500335,3,Ottawa Rideau,Ontario,26/08/2026,Accessories,Headlamp 300lm,1,169.83,DEBIT,100315
+500336,3,Ottawa Rideau,Ontario,2026-08-26,Accessories,Hydration Pack,1,255.41,AMEX,100069
+500337,3,Ottawa Rideau,Ontario,2026-08-26,Apparel,Down Vest,1,196.54,VISA,100239
+500338,4,Montreal Ste-Catherine,Quebec,2026-08-26,Footwear,Alpine Hiking Shoe,3,283.61,AMEX,100074
+500339,4,Montreal Ste-Catherine,Quebec,2026-08-26,Accessories,Wool Socks 3-Pack,1,223.74,DEBIT,100278
+500340,4,Montreal Ste-Catherine,Quebec,2026-08-26,Camping,Sleeping Bag -10C,1,181.53,GIFT_CARD,0000000
+500341,4,Montreal Ste-Catherine,Quebec,2026-08-26,Footwear,Trail Runner Low,1,271.41,VISA,100206
+500342,4,Montreal Ste-Catherine,Quebec,2026-08-26,Accessories,Hydration Pack,1,204.46,VISA,100253
+500343,4,Montreal Ste-Catherine,Quebec,2026-08-26,Accessories,Carabiner 4-Pack,1,319.25,DEBIT,100301
+500344,4,Montreal Ste-Catherine,Quebec,2026-08-26,Footwear,Insulated Winter Boot,1,218.04,MASTERCARD,100018
+500345,4,Montreal Ste-Catherine,Quebec,26/08/2026,Accessories,Dry Bag 20L,1,308.89,MASTERCARD,100308
+500346,4,Montreal Ste-Catherine,Quebec,2026-08-26,Accessories,Wool Socks 3-Pack,1,21.15,AMEX,100048
+500347,4,Montreal Ste-Catherine,Quebec,2026-08-26,Footwear,Trailrunner Boot,1,40.22,DEBIT,100332
+500348,4,Montreal Ste-Catherine,Quebec,2026-08-26,Camping,Camp Stove,1,129.37,VISA,100009
+500349,4,Montreal Ste-Catherine,Quebec,2026-08-26,Accessories,Headlamp 300lm,1,286.95,VISA,0000000
+500350,4,Montreal Ste-Catherine,Quebec,2026-08-26,Footwear,Alpine Hiking Shoe,1,18.87,AMEX,100153
+500351,4,Montreal Ste-Catherine,Quebec,2026-08-26,Apparel,Down Vest,1,128.37,MASTERCARD,100104
+500352,4,Montreal Ste-Catherine,Quebec,2026-08-26,Footwear,Insulated Winter Boot,1,105.08,GIFT_CARD,100004
+500353,4,Montreal Ste-Catherine,Quebec,2026-08-26,Accessories,Dry Bag 20L,1,273.17,VISA,100161
+500354,4,Montreal Ste-Catherine,Quebec,2026-08-26,Apparel,Fleece Pullover,2,33.34,GIFT_CARD,100181
+500355,4,Montreal Ste-Catherine,Quebec,2026-08-26,Camping,Sleeping Pad,1,291.69,DEBIT,100159
+500356,4,Montreal Ste-Catherine,Quebec,2026-08-26,Footwear,Insulated Winter Boot,1,254.77,MASTERCARD,100384
+500357,5,Quebec City Laurier,Quebec,2026-08-26,Accessories,Wool Socks 3-Pack,1,123.72,AMEX,100294
+500358,5,Quebec City Laurier,Quebec,2026-08-26,Accessories,Dry Bag 20L,1,180.98,MASTERCARD,100261
+500359,5,Quebec City Laurier,Quebec,2026-08-26,Camping,Camp Stove,1,315.93,MASTERCARD,100343
+500360,5,Quebec City Laurier,Quebec,2026-08-26,Apparel,Rain Shell,1,286.27,GIFT_CARD,100073
+500361,5,Quebec City Laurier,Quebec,2026-08-26,Accessories,Wool Socks 3-Pack,1,84.26,VISA,100245
+500362,5,Quebec City Laurier,Quebec,2026-08-26,Apparel,Fleece Pullover,1,165.55,AMEX,0000000
+500363,5,Quebec City Laurier,Quebec,2026-08-26,Apparel,Rain Shell,1,225.94,AMEX,0000000
+500364,5,Quebec City Laurier,Quebec,2026-08-26,Camping,Sleeping Pad,1,192.03,MASTERCARD,100335
+500365,5,Quebec City Laurier,Quebec,2026-08-26,Camping,Sleeping Pad,1,78.94,AMEX,100276
+500366,5,Quebec City Laurier,Quebec,2026-08-26,Camping,Trekking Pole Pair,1,241.59,MASTERCARD,0000000
+500367,5,Quebec City Laurier,Quebec,2026-08-26,Footwear,Trail Runner Low,1,237.77,MASTERCARD,100203
+500368,5,Quebec City Laurier,Quebec,2026-08-26,Footwear,Alpine Hiking Shoe,1,276.77,AMEX,100377
+500369,5,Quebec City Laurier,Quebec,2026-08-26,Accessories,Carabiner 4-Pack,1,32.97,VISA,100071
+500370,5,Quebec City Laurier,Quebec,2026-08-26,Footwear,Alpine Hiking Shoe,1,154.43,VISA,100166
+500371,5,Quebec City Laurier,Quebec,2026-08-26,Apparel,Rain Shell,1,235.9,AMEX,100363
+500372,6,Vancouver Robson,British Columbia,2026-08-26,Camping,Trekking Pole Pair,2,143.85,MASTERCARD,0000000
+500373,6,Vancouver Robson,British Columbia,2026-08-26,Apparel,Softshell Jacket,2,282.49,GIFT_CARD,100356
+500374,6,Vancouver Robson,British Columbia,26/08/2026,Footwear,Alpine Hiking Shoe,2,301.53,MASTERCARD,100166
+500375,6,Vancouver Robson,British Columbia,2026-08-26,Footwear,Alpine Hiking Shoe,1,46.5,AMEX,100260
+500376,6,Vancouver Robson,British Columbia,2026-08-26,Footwear,Trail Runner Low,1,297.25,MASTERCARD,100140
+500377,6,Vancouver Robson,British Columbia,2026-08-26,Footwear,Trailrunner Boot,1,156.9,MASTERCARD,100191
+500378,6,Vancouver Robson,British Columbia,2026-08-26,Footwear,Alpine Hiking Shoe,1,276.75,AMEX,100073
+500379,6,Vancouver Robson,British Columbia,2026-08-26,Footwear,Trail Runner Low,1,275.42,AMEX,0000000
+500380,6,Vancouver Robson,British Columbia,2026-08-26,Accessories,Headlamp 300lm,1,122.97,DEBIT,100397
+500381,7,Victoria Douglas,British Columbia,2026-08-26,Footwear,Trailrunner Boot,1,318.79,MASTERCARD,100016
+500382,7,Victoria Douglas,British Columbia,2026-08-26,Camping,2-Person Tent,1,85.19,DEBIT,100381
+500383,7,Victoria Douglas,British Columbia,2026-08-26,Accessories,Dry Bag 20L,2,37.98,DEBIT,0000000
+500384,7,Victoria Douglas,British Columbia,2026-08-26,Footwear,Trail Runner Low,1,243.78,DEBIT,100251
+500385,7,Victoria Douglas,British Columbia,2026-08-26,Apparel,Softshell Jacket,1,166.45,DEBIT,100004
+500386,7,Victoria Douglas,British Columbia,2026-08-26,Footwear,Insulated Winter Boot,1,220.05,VISA,100148
+500387,7,Victoria Douglas,British Columbia,2026-08-26,Camping,Trekking Pole Pair,1,192.9,GIFT_CARD,100086
+500388,7,Victoria Douglas,British Columbia,2026-08-26,Apparel,Softshell Jacket,3,256.93,MASTERCARD,100196
+500389,7,Victoria Douglas,British Columbia,2026-08-26,Camping,Sleeping Bag -10C,1,75.88,GIFT_CARD,100013
+500390,7,Victoria Douglas,British Columbia,2026-08-26,Apparel,Fleece Pullover,1,101.4,DEBIT,100114
+500391,7,Victoria Douglas,British Columbia,2026-08-26,Camping,Sleeping Pad,1,198.42,VISA,100072
+500392,7,Victoria Douglas,British Columbia,2026-08-26,Footwear,Trailrunner Boot,1,99.46,MASTERCARD,100364
+500393,7,Victoria Douglas,British Columbia,2026-08-26,Footwear,Alpine Hiking Shoe,1,68.65,GIFT_CARD,0000000
+500394,7,Victoria Douglas,British Columbia,2026-08-26,Accessories,Wool Socks 3-Pack,1,38.94,DEBIT,100076
+500395,7,Victoria Douglas,British Columbia,2026-08-26,Footwear,Trailrunner Boot,1,187.2,VISA,0000000
+500396,8,Calgary Stephen Ave,Alberta,2026-08-26,Apparel,Rain Shell,1,151.16,MASTERCARD,100254
+500397,8,Calgary Stephen Ave,Alberta,2026-08-26,Apparel,Fleece Pullover,1,227.11,VISA,0000000
+500398,8,Calgary Stephen Ave,Alberta,2026-08-26,Footwear,Alpine Hiking Shoe,1,34.16,AMEX,100090
+500399,8,Calgary Stephen Ave,Alberta,2026-08-26,Accessories,Headlamp 300lm,1,214.0,MASTERCARD,100146
+500400,8,Calgary Stephen Ave,Alberta,2026-08-26,Accessories,Hydration Pack,3,82.49,AMEX,0000000
+500401,8,Calgary Stephen Ave,Alberta,2026-08-26,Camping,Camp Stove,1,169.73,MASTERCARD,100118
+500402,8,Calgary Stephen Ave,Alberta,2026-08-26,Camping,2-Person Tent,1,283.37,GIFT_CARD,100007
+500403,8,Calgary Stephen Ave,Alberta,2026-08-26,Apparel,Fleece Pullover,1,164.47,AMEX,100059
+500404,8,Calgary Stephen Ave,Alberta,2026-08-26,Footwear,Trailrunner Boot,2,60.51,VISA,100042
+500405,8,Calgary Stephen Ave,Alberta,2026-08-26,Apparel,Fleece Pullover,1,47.86,VISA,100003
+500406,8,Calgary Stephen Ave,Alberta,2026-08-26,Camping,2-Person Tent,2,250.27,GIFT_CARD,100351
+500407,9,Edmonton Whyte Ave,Alberta,2026-08-26,Accessories,Wool Socks 3-Pack,1,289.82,AMEX,100193
+500408,9,Edmonton Whyte Ave,Alberta,2026-08-26,Camping,Camp Stove,1,257.49,GIFT_CARD,100050
+500409,9,Edmonton Whyte Ave,Alberta,2026-08-26,Footwear,Alpine Hiking Shoe,3,246.71,AMEX,0000000
+500410,9,Edmonton Whyte Ave,Alberta,2026-08-26,Footwear,Alpine Hiking Shoe,1,221.63,MASTERCARD,0000000
+500411,9,Edmonton Whyte Ave,Alberta,2026-08-26,Footwear,Trail Runner Low,1,182.79,MASTERCARD,100308
+500412,9,Edmonton Whyte Ave,Alberta,2026-08-26,Accessories,Wool Socks 3-Pack,1,165.62,MASTERCARD,100133
+500413,9,Edmonton Whyte Ave,Alberta,2026-08-26,Camping,Sleeping Bag -10C,1,278.04,MASTERCARD,0000000
+500414,9,Edmonton Whyte Ave,Alberta,2026-08-26,Accessories,Carabiner 4-Pack,1,302.89,GIFT_CARD,100177
+500415,9,Edmonton Whyte Ave,Alberta,2026-08-26,Apparel,Fleece Pullover,1,182.27,GIFT_CARD,100311
+500416,9,Edmonton Whyte Ave,Alberta,2026-08-26,Footwear,Trail Runner Low,1,247.21,AMEX,0000000
+500417,9,Edmonton Whyte Ave,Alberta,2026-08-26,Apparel,Rain Shell,3,133.83,VISA,100036
+500418,9,Edmonton Whyte Ave,Alberta,2026-08-26,Camping,Sleeping Pad,1,56.01,VISA,100147
+500419,9,Edmonton Whyte Ave,Alberta,2026-08-26,Footwear,Insulated Winter Boot,1,49.64,AMEX,100229
+500420,10,Halifax Spring Garden,Atlantic,2026-08-26,Accessories,Carabiner 4-Pack,1,315.4,GIFT_CARD,100008
+500421,10,Halifax Spring Garden,Atlantic,2026-08-26,Footwear,Alpine Hiking Shoe,1,306.44,DEBIT,100287
+500422,10,Halifax Spring Garden,Atlantic,2026-08-26,Accessories,Carabiner 4-Pack,1,177.63,GIFT_CARD,0000000
+500423,10,Halifax Spring Garden,Atlantic,2026-08-26,Footwear,Insulated Winter Boot,1,259.99,MASTERCARD,100012
+500424,10,Halifax Spring Garden,Atlantic,2026-08-26,Camping,2-Person Tent,1,117.41,DEBIT,100082
+500425,10,Halifax Spring Garden,Atlantic,2026-08-26,Apparel,Merino Base Layer,1,277.99,GIFT_CARD,100006
+500426,10,Halifax Spring Garden,Atlantic,2026-08-26,Camping,Camp Stove,1,214.07,DEBIT,100314
+500427,10,Halifax Spring Garden,Atlantic,2026-08-26,Accessories,Headlamp 300lm,1,167.87,DEBIT,100325
+500428,10,Halifax Spring Garden,Atlantic,2026-08-26,Camping,Camp Stove,1,296.09,VISA,100230
+500429,10,Halifax Spring Garden,Atlantic,2026-08-26,Apparel,Merino Base Layer,1,234.36,DEBIT,100159
+500430,10,Halifax Spring Garden,Atlantic,2026-08-26,Apparel,Rain Shell,1,86.17,MASTERCARD,100187
+500431,10,Halifax Spring Garden,Atlantic,2026-08-26,Apparel,Merino Base Layer,1,176.73,GIFT_CARD,0000000
+500432,10,Halifax Spring Garden,Atlantic,2026-08-26,Apparel,Fleece Pullover,1,147.6,VISA,0000000
+500433,1,Toronto Yonge St,Ontario,2026-08-27,Apparel,Fleece Pullover,1,318.53,GIFT_CARD,0000000
+500434,1,Toronto Yonge St,Ontario,2026-08-27,Apparel,Fleece Pullover,1,74.62,VISA,100370
+500435,1,Toronto Yonge St,Ontario,2026-08-27,Apparel,Down Vest,3,226.27,VISA,100203
+500436,1,Toronto Yonge St,Ontario,2026-08-27,Camping,2-Person Tent,3,62.48,GIFT_CARD,100102
+500437,1,Toronto Yonge St,Ontario,2026-08-27,Apparel,Rain Shell,1,132.78,MASTERCARD,100034
+500438,1,Toronto Yonge St,Ontario,2026-08-27,Footwear,Alpine Hiking Shoe,1,48.5,GIFT_CARD,100140
+500439,1,Toronto Yonge St,Ontario,2026-08-27,Footwear,Trailrunner Boot,1,62.29,VISA,0000000
+500440,1,Toronto Yonge St,Ontario,2026-08-27,Apparel,Softshell Jacket,1,54.93,VISA,100318
+500441,1,Toronto Yonge St,Ontario,2026-08-27,Accessories,Wool Socks 3-Pack,1,226.07,AMEX,100219
+500442,1,Toronto Yonge St,Ontario,2026-08-27,Apparel,Fleece Pullover,1,23.45,DEBIT,100020
+500443,1,Toronto Yonge St,Ontario,2026-08-27,Apparel,Merino Base Layer,1,127.53,GIFT_CARD,0000000
+500444,1,Toronto Yonge St,Ontario,2026-08-27,Accessories,Carabiner 4-Pack,3,292.7,DEBIT,100282
+500445,1,Toronto Yonge St,Ontario,2026-08-27,Camping,Sleeping Bag -10C,1,291.75,MASTERCARD,100250
+500446,1,Toronto Yonge St,Ontario,2026-08-27,Accessories,Carabiner 4-Pack,1,49.04,AMEX,100310
+500447,1,Toronto Yonge St,Ontario,2026-08-27,Camping,Sleeping Bag -10C,1,301.14,AMEX,100010
+500448,1,Toronto Yonge St,Ontario,2026-08-27,Accessories,Carabiner 4-Pack,1,44.88,MASTERCARD,100227
+500449,1,Toronto Yonge St,Ontario,2026-08-27,Apparel,Rain Shell,1,146.11,GIFT_CARD,100015
+500450,1,Toronto Yonge St,Ontario,2026-08-27,Footwear,Trail Runner Low,1,146.66,AMEX,100093
+500451,1,Toronto Yonge St,Ontario,2026-08-27,Camping,2-Person Tent,1,82.72,GIFT_CARD,100327
+500452,2,Toronto Scarborough,Ontario,2026-08-27,Footwear,Trail Runner Low,1,184.22,DEBIT,100037
+500453,2,Toronto Scarborough,Ontario,2026-08-27,Accessories,Wool Socks 3-Pack,1,36.91,MASTERCARD,100229
+500454,2,Toronto Scarborough,Ontario,2026-08-27,Camping,2-Person Tent,2,21.04,MASTERCARD,100298
+500455,2,Toronto Scarborough,Ontario,2026-08-27,Accessories,Hydration Pack,1,150.27,VISA,100267
+500456,2,Toronto Scarborough,Ontario,2026-08-27,Footwear,Insulated Winter Boot,1,246.34,VISA,100314
+500457,2,Toronto Scarborough,Ontario,2026-08-27,Accessories,Carabiner 4-Pack,1,303.91,AMEX,100280
+500458,2,Toronto Scarborough,Ontario,2026-08-27,Apparel,Down Vest,1,266.37,VISA,100241
+500459,2,Toronto Scarborough,Ontario,2026-08-27,Camping,Trekking Pole Pair,1,307.35,DEBIT,100379
+500460,3,Ottawa Rideau,Ontario,2026-08-27,Apparel,Fleece Pullover,1,87.94,AMEX,100189
+500461,3,Ottawa Rideau,Ontario,2026-08-27,Accessories,Hydration Pack,1,271.67,VISA,0000000
+500462,3,Ottawa Rideau,Ontario,2026-08-27,Apparel,Fleece Pullover,1,272.46,GIFT_CARD,100305
+500463,3,Ottawa Rideau,Ontario,2026-08-27,Accessories,Dry Bag 20L,1,285.39,GIFT_CARD,100237
+500464,3,Ottawa Rideau,Ontario,2026-08-27,Apparel,Merino Base Layer,1,33.4,GIFT_CARD,100052
+500465,3,Ottawa Rideau,Ontario,2026-08-27,Footwear,Alpine Hiking Shoe,1,53.4,AMEX,0000000
+500466,3,Ottawa Rideau,Ontario,2026-08-27,Camping,Camp Stove,1,157.82,AMEX,100165
+500467,3,Ottawa Rideau,Ontario,2026-08-27,Accessories,Dry Bag 20L,1,158.04,MASTERCARD,100384
+500468,3,Ottawa Rideau,Ontario,2026-08-27,Camping,2-Person Tent,1,126.18,DEBIT,100118
+500469,3,Ottawa Rideau,Ontario,2026-08-27,Accessories,Dry Bag 20L,1,56.35,DEBIT,0000000
+500470,3,Ottawa Rideau,Ontario,2026-08-27,Camping,Sleeping Bag -10C,1,54.37,MASTERCARD,100098
+500471,3,Ottawa Rideau,Ontario,2026-08-27,Apparel,Rain Shell,1,129.85,GIFT_CARD,100258
+500472,4,Montreal Ste-Catherine,Quebec,2026-08-27,Camping,Trekking Pole Pair,1,279.55,MASTERCARD,100378
+500473,4,Montreal Ste-Catherine,Quebec,2026-08-27,Camping,Sleeping Pad,2,142.85,VISA,100326
+500474,4,Montreal Ste-Catherine,Quebec,2026-08-27,Accessories,Wool Socks 3-Pack,3,214.38,GIFT_CARD,100222
+500475,4,Montreal Ste-Catherine,Quebec,2026-08-27,Footwear,Trail Runner Low,1,105.73,GIFT_CARD,0000000
+500476,4,Montreal Ste-Catherine,Quebec,2026-08-27,Accessories,Dry Bag 20L,1,32.4,DEBIT,100193
+500477,4,Montreal Ste-Catherine,Quebec,2026-08-27,Accessories,Headlamp 300lm,2,200.58,MASTERCARD,100267
+500478,4,Montreal Ste-Catherine,Quebec,2026-08-27,Camping,Sleeping Pad,1,142.01,MASTERCARD,100226
+500479,4,Montreal Ste-Catherine,Quebec,2026-08-27,Apparel,Down Vest,1,84.71,AMEX,100101
+500480,4,Montreal Ste-Catherine,Quebec,2026-08-27,Accessories,Wool Socks 3-Pack,1,171.91,MASTERCARD,100245
+500481,4,Montreal Ste-Catherine,Quebec,2026-08-27,Footwear,Insulated Winter Boot,1,101.8,AMEX,100193
+500482,4,Montreal Ste-Catherine,Quebec,27/08/2026,Footwear,Trail Runner Low,1,195.82,MASTERCARD,100339
+500483,4,Montreal Ste-Catherine,Quebec,2026-08-27,Apparel,Rain Shell,1,186.41,AMEX,100023
+500484,4,Montreal Ste-Catherine,Quebec,2026-08-27,Apparel,Rain Shell,1,71.71,AMEX,100390
+500485,4,Montreal Ste-Catherine,Quebec,2026-08-27,Footwear,Insulated Winter Boot,1,267.09,AMEX,100344
+500486,4,Montreal Ste-Catherine,Quebec,2026-08-27,Apparel,Softshell Jacket,1,235.43,GIFT_CARD,100089
+500487,4,Montreal Ste-Catherine,Quebec,2026-08-27,Apparel,Rain Shell,1,173.32,VISA,100334
+500488,4,Montreal Ste-Catherine,Quebec,27/08/2026,Apparel,Fleece Pullover,1,158.73,VISA,100346
+500489,4,Montreal Ste-Catherine,Quebec,2026-08-27,Accessories,Hydration Pack,1,114.04,AMEX,100109
+500490,4,Montreal Ste-Catherine,Quebec,2026-08-27,Apparel,Down Vest,2,240.22,VISA,100081
+500491,4,Montreal Ste-Catherine,Quebec,2026-08-27,Accessories,Hydration Pack,1,246.91,GIFT_CARD,100059
+500492,4,Montreal Ste-Catherine,Quebec,2026-08-27,Apparel,Merino Base Layer,1,165.5,GIFT_CARD,100211
+500493,4,Montreal Ste-Catherine,Quebec,2026-08-27,Footwear,Trailrunner Boot,1,18.66,GIFT_CARD,100274
+500494,5,Quebec City Laurier,Quebec,2026-08-27,Camping,Sleeping Pad,1,82.02,MASTERCARD,100324
+500495,5,Quebec City Laurier,Quebec,2026-08-27,Apparel,Down Vest,1,319.16,MASTERCARD,100331
+500496,5,Quebec City Laurier,Quebec,2026-08-27,Camping,Sleeping Bag -10C,1,84.08,MASTERCARD,100096
+500497,5,Quebec City Laurier,Quebec,2026-08-27,Apparel,Rain Shell,1,180.5,VISA,100077
+500498,5,Quebec City Laurier,Quebec,2026-08-27,Accessories,Wool Socks 3-Pack,1,62.11,AMEX,100231
+500499,5,Quebec City Laurier,Quebec,2026-08-27,Accessories,Headlamp 300lm,3,222.47,DEBIT,100091
+500500,5,Quebec City Laurier,Quebec,2026-08-27,Camping,  2-Person Tent ,2,210.1,VISA,100043
+500501,5,Quebec City Laurier,Quebec,2026-08-27,Footwear,Trail Runner Low,1,34.97,AMEX,0000000
+500502,5,Quebec City Laurier,Quebec,2026-08-27,Apparel,Fleece Pullover,2,78.98,VISA,100037
+500503,5,Quebec City Laurier,Quebec,2026-08-27,Camping,Trekking Pole Pair,1,28.64,DEBIT,100390
+500504,5,Quebec City Laurier,Quebec,2026-08-27,Footwear,Alpine Hiking Shoe,1,252.72,GIFT_CARD,0000000
+500505,5,Quebec City Laurier,Quebec,2026-08-27,Footwear,Insulated Winter Boot,1,190.98,MASTERCARD,100316
+500506,5,Quebec City Laurier,Quebec,2026-08-27,Footwear,Trail Runner Low,1,111.12,DEBIT,100109
+500507,5,Quebec City Laurier,Quebec,2026-08-27,Apparel,Rain Shell,1,273.66,GIFT_CARD,100180
+500508,5,Quebec City Laurier,Quebec,2026-08-27,Accessories,Headlamp 300lm,1,299.56,VISA,100215
+500509,5,Quebec City Laurier,Quebec,2026-08-27,Apparel,Softshell Jacket,1,68.51,VISA,100379
+500510,5,Quebec City Laurier,Quebec,2026-08-27,Camping,Sleeping Bag -10C,1,252.44,GIFT_CARD,100260
+500511,5,Quebec City Laurier,Quebec,2026-08-27,Camping,2-Person Tent,1,150.12,MASTERCARD,0000000
+500512,5,Quebec City Laurier,Quebec,2026-08-27,Camping,Camp Stove,1,173.88,GIFT_CARD,100331
+500513,5,Quebec City Laurier,Quebec,2026-08-27,Apparel,Down Vest,1,34.82,VISA,0000000
+500514,5,Quebec City Laurier,Quebec,2026-08-27,Camping,Trekking Pole Pair,3,50.27,VISA,100258
+500515,6,Vancouver Robson,British Columbia,2026-08-27,Footwear,Trailrunner Boot,1,136.27,MASTERCARD,0000000
+500516,6,Vancouver Robson,British Columbia,2026-08-27,Accessories,Wool Socks 3-Pack,1,185.38,AMEX,100033
+500517,6,Vancouver Robson,British Columbia,2026-08-27,Footwear,Trail Runner Low,1,305.81,MASTERCARD,100349
+500518,6,Vancouver Robson,British Columbia,2026-08-27,Footwear,Insulated Winter Boot,1,263.98,DEBIT,100104
+500519,6,Vancouver Robson,British Columbia,27/08/2026,Accessories,  Carabiner 4-Pack ,1,104.05,AMEX,0000000
+500520,6,Vancouver Robson,British Columbia,2026-08-27,Accessories,Carabiner 4-Pack,1,78.27,VISA,100055
+500521,6,Vancouver Robson,British Columbia,2026-08-27,Accessories,Hydration Pack,1,183.66,GIFT_CARD,0000000
+500522,6,Vancouver Robson,British Columbia,27/08/2026,Footwear,Insulated Winter Boot,1,220.61,DEBIT,100348
+500523,6,Vancouver Robson,British Columbia,2026-08-27,Footwear,Insulated Winter Boot,1,190.15,GIFT_CARD,100194
+500524,6,Vancouver Robson,British Columbia,2026-08-27,Accessories,Dry Bag 20L,1,126.27,DEBIT,100027
+500525,6,Vancouver Robson,British Columbia,2026-08-27,Apparel,Down Vest,1,277.54,MASTERCARD,100359
+500526,6,Vancouver Robson,British Columbia,2026-08-27,Camping,Trekking Pole Pair,1,43.53,MASTERCARD,100098
+500527,6,Vancouver Robson,British Columbia,2026-08-27,Apparel,Merino Base Layer,1,72.15,AMEX,100195
+500528,6,Vancouver Robson,British Columbia,2026-08-27,Camping,Sleeping Bag -10C,1,95.94,DEBIT,100071
+500529,6,Vancouver Robson,British Columbia,2026-08-27,Apparel,Down Vest,1,121.29,AMEX,100232
+500530,6,Vancouver Robson,British Columbia,2026-08-27,Camping,2-Person Tent,1,251.28,MASTERCARD,100075
+500531,6,Vancouver Robson,British Columbia,2026-08-27,Apparel,Merino Base Layer,1,93.08,MASTERCARD,100159
+500532,7,Victoria Douglas,British Columbia,2026-08-27,Camping,Camp Stove,1,309.23,MASTERCARD,100254
+500533,7,Victoria Douglas,British Columbia,2026-08-27,Accessories,Dry Bag 20L,1,281.61,MASTERCARD,100310
+500534,7,Victoria Douglas,British Columbia,2026-08-27,Footwear,Insulated Winter Boot,1,62.32,DEBIT,100053
+500535,7,Victoria Douglas,British Columbia,2026-08-27,Apparel,Merino Base Layer,1,187.2,DEBIT,100305
+500536,7,Victoria Douglas,British Columbia,2026-08-27,Camping,Sleeping Pad,1,227.36,AMEX,100078
+500537,7,Victoria Douglas,British Columbia,2026-08-27,Footwear,Trailrunner Boot,1,61.74,DEBIT,0000000
+500538,7,Victoria Douglas,British Columbia,2026-08-27,Camping,2-Person Tent,3,79.49,GIFT_CARD,0000000
+500539,7,Victoria Douglas,British Columbia,2026-08-27,Apparel,Softshell Jacket,1,194.37,VISA,100061
+500540,7,Victoria Douglas,British Columbia,2026-08-27,Camping,Sleeping Bag -10C,1,126.2,MASTERCARD,100235
+500541,7,Victoria Douglas,British Columbia,2026-08-27,Accessories,Hydration Pack,1,280.32,GIFT_CARD,100350
+500542,7,Victoria Douglas,British Columbia,2026-08-27,Apparel,Softshell Jacket,1,211.6,VISA,0000000
+500543,7,Victoria Douglas,British Columbia,2026-08-27,Footwear,Trail Runner Low,1,195.2,AMEX,100055
+500544,7,Victoria Douglas,British Columbia,2026-08-27,Camping,Camp Stove,1,58.31,AMEX,100281
+500545,7,Victoria Douglas,British Columbia,2026-08-27,Apparel,Softshell Jacket,1,222.92,VISA,100000
+500546,7,Victoria Douglas,British Columbia,2026-08-27,Camping,Sleeping Bag -10C,1,63.88,MASTERCARD,100276
+500547,7,Victoria Douglas,British Columbia,2026-08-27,Accessories,Wool Socks 3-Pack,1,155.42,MASTERCARD,0000000
+500548,7,Victoria Douglas,British Columbia,2026-08-27,Footwear,Insulated Winter Boot,1,253.32,VISA,100055
+500549,8,Calgary Stephen Ave,Alberta,2026-08-27,Apparel,Rain Shell,1,290.56,DEBIT,100233
+500550,8,Calgary Stephen Ave,Alberta,2026-08-27,Accessories,Wool Socks 3-Pack,2,88.28,VISA,100126
+500551,8,Calgary Stephen Ave,Alberta,2026-08-27,Camping,Camp Stove,2,159.33,GIFT_CARD,100150
+500552,8,Calgary Stephen Ave,Alberta,2026-08-27,Footwear,Trail Runner Low,1,249.59,DEBIT,0000000
+500553,8,Calgary Stephen Ave,Alberta,2026-08-27,Camping,Sleeping Bag -10C,1,157.47,GIFT_CARD,100299
+500554,8,Calgary Stephen Ave,Alberta,2026-08-27,Accessories,Dry Bag 20L,1,255.79,DEBIT,100188
+500555,8,Calgary Stephen Ave,Alberta,2026-08-27,Apparel,Merino Base Layer,1,112.96,GIFT_CARD,100067
+500556,8,Calgary Stephen Ave,Alberta,2026-08-27,Accessories,Hydration Pack,1,130.67,GIFT_CARD,100268
+500557,8,Calgary Stephen Ave,Alberta,2026-08-27,Accessories,Headlamp 300lm,3,247.87,VISA,100303
+500558,8,Calgary Stephen Ave,Alberta,27/08/2026,Accessories,Headlamp 300lm,1,76.23,DEBIT,100257
+500559,8,Calgary Stephen Ave,Alberta,2026-08-27,Camping,2-Person Tent,3,85.85,VISA,100239
+500560,8,Calgary Stephen Ave,Alberta,2026-08-27,Camping,Camp Stove,1,317.55,GIFT_CARD,100378
+500561,8,Calgary Stephen Ave,Alberta,2026-08-27,Camping,2-Person Tent,1,202.66,MASTERCARD,100376
+500562,8,Calgary Stephen Ave,Alberta,2026-08-27,Footwear,Insulated Winter Boot,1,93.53,MASTERCARD,100343
+500563,8,Calgary Stephen Ave,Alberta,2026-08-27,Apparel,Softshell Jacket,1,255.97,AMEX,100136
+500564,8,Calgary Stephen Ave,Alberta,2026-08-27,Apparel,Rain Shell,1,84.84,GIFT_CARD,100338
+500565,8,Calgary Stephen Ave,Alberta,2026-08-27,Camping,2-Person Tent,1,304.16,VISA,100298
+500566,8,Calgary Stephen Ave,Alberta,2026-08-27,Accessories,Wool Socks 3-Pack,1,298.06,DEBIT,100040
+500567,8,Calgary Stephen Ave,Alberta,2026-08-27,Accessories,Dry Bag 20L,1,54.25,MASTERCARD,100369
+500568,8,Calgary Stephen Ave,Alberta,2026-08-27,Camping,Sleeping Pad,1,228.91,VISA,100005
+500569,8,Calgary Stephen Ave,Alberta,2026-08-27,Footwear,Alpine Hiking Shoe,1,256.92,DEBIT,100200
+500570,9,Edmonton Whyte Ave,Alberta,2026-08-27,Accessories,Carabiner 4-Pack,1,166.99,AMEX,100002
+500571,9,Edmonton Whyte Ave,Alberta,2026-08-27,Footwear,Trailrunner Boot,1,232.55,AMEX,100007
+500572,9,Edmonton Whyte Ave,Alberta,2026-08-27,Apparel,Merino Base Layer,1,183.56,VISA,100372
+500573,9,Edmonton Whyte Ave,Alberta,2026-08-27,Footwear,Alpine Hiking Shoe,1,27.94,GIFT_CARD,0000000
+500574,9,Edmonton Whyte Ave,Alberta,2026-08-27,Footwear,Insulated Winter Boot,1,81.81,DEBIT,100038
+500575,9,Edmonton Whyte Ave,Alberta,2026-08-27,Accessories,Dry Bag 20L,1,233.97,GIFT_CARD,100161
+500576,9,Edmonton Whyte Ave,Alberta,2026-08-27,Accessories,Wool Socks 3-Pack,1,26.93,MASTERCARD,100307
+500577,9,Edmonton Whyte Ave,Alberta,2026-08-27,Footwear,Trail Runner Low,1,65.66,AMEX,100305
+500578,9,Edmonton Whyte Ave,Alberta,2026-08-27,Apparel,Down Vest,1,157.93,VISA,100264
+500579,9,Edmonton Whyte Ave,Alberta,2026-08-27,Apparel,Rain Shell,1,250.2,DEBIT,100275
+500580,9,Edmonton Whyte Ave,Alberta,2026-08-27,Camping,Trekking Pole Pair,1,299.11,GIFT_CARD,100208
+500581,9,Edmonton Whyte Ave,Alberta,2026-08-27,Accessories,Hydration Pack,1,306.75,GIFT_CARD,100084
+500582,9,Edmonton Whyte Ave,Alberta,2026-08-27,Apparel,Down Vest,2,218.93,AMEX,100144
+500583,9,Edmonton Whyte Ave,Alberta,2026-08-27,Camping,Sleeping Pad,1,229.71,MASTERCARD,100094
+500584,9,Edmonton Whyte Ave,Alberta,2026-08-27,Camping,Camp Stove,1,175.87,AMEX,100339
+500585,9,Edmonton Whyte Ave,Alberta,2026-08-27,Apparel,Down Vest,1,179.16,AMEX,100193
+500586,10,Halifax Spring Garden,Atlantic,2026-08-27,Accessories,Dry Bag 20L,1,230.63,AMEX,100061
+500587,10,Halifax Spring Garden,Atlantic,2026-08-27,Camping,  Sleeping Bag -10C ,1,100.72,GIFT_CARD,100335
+500588,10,Halifax Spring Garden,Atlantic,2026-08-27,Accessories,Hydration Pack,1,190.88,MASTERCARD,100236
+500589,10,Halifax Spring Garden,Atlantic,2026-08-27,Accessories,Dry Bag 20L,1,137.19,AMEX,100377
+500590,10,Halifax Spring Garden,Atlantic,2026-08-27,Camping,Sleeping Bag -10C,1,293.51,VISA,100345
+500591,10,Halifax Spring Garden,Atlantic,2026-08-27,Accessories,Carabiner 4-Pack,1,87.84,GIFT_CARD,100287
+500592,10,Halifax Spring Garden,Atlantic,2026-08-27,Camping,2-Person Tent,1,247.59,DEBIT,0000000
+500593,10,Halifax Spring Garden,Atlantic,2026-08-27,Apparel,Merino Base Layer,1,160.77,DEBIT,100314
+500594,10,Halifax Spring Garden,Atlantic,2026-08-27,Camping,Sleeping Bag -10C,1,204.52,MASTERCARD,100149
+500595,10,Halifax Spring Garden,Atlantic,2026-08-27,Accessories,Wool Socks 3-Pack,2,108.27,DEBIT,100291
+500596,10,Halifax Spring Garden,Atlantic,2026-08-27,Footwear,Trail Runner Low,1,298.28,GIFT_CARD,100249
+500597,10,Halifax Spring Garden,Atlantic,2026-08-27,Camping,Sleeping Bag -10C,1,273.96,MASTERCARD,100242
+500598,10,Halifax Spring Garden,Atlantic,2026-08-27,Apparel,Rain Shell,1,45.05,MASTERCARD,100277
+500599,10,Halifax Spring Garden,Atlantic,2026-08-27,Footwear,Trail Runner Low,1,216.64,AMEX,100003
+500600,10,Halifax Spring Garden,Atlantic,2026-08-27,Footwear,Alpine Hiking Shoe,1,34.73,AMEX,100066
+500601,10,Halifax Spring Garden,Atlantic,2026-08-27,Camping,Trekking Pole Pair,2,23.89,GIFT_CARD,100340
+500602,10,Halifax Spring Garden,Atlantic,2026-08-27,Footwear,Insulated Winter Boot,1,77.26,MASTERCARD,0000000
+500594,10,Halifax Spring Garden,Atlantic,2026-08-27,Camping,Sleeping Bag -10C,1,204.52,MASTERCARD,100149
+500580,9,Edmonton Whyte Ave,Alberta,2026-08-27,Camping,Trekking Pole Pair,1,299.11,GIFT_CARD,100208
+500599,10,Halifax Spring Garden,Atlantic,2026-08-27,Footwear,Trail Runner Low,1,216.64,AMEX,100003
+500603,1,Toronto Yonge St,Ontario,2026-08-28,Footwear,Insulated Winter Boot,1,310.97,VISA,0000000
+500604,1,Toronto Yonge St,Ontario,2026-08-28,Camping,Trekking Pole Pair,1,261.21,DEBIT,100015
+500605,1,Toronto Yonge St,Ontario,2026-08-28,Accessories,Dry Bag 20L,3,254.5,MASTERCARD,100059
+500606,1,Toronto Yonge St,Ontario,2026-08-28,Apparel,Merino Base Layer,1,300.21,DEBIT,100061
+500607,1,Toronto Yonge St,Ontario,2026-08-28,Footwear,Trailrunner Boot,3,236.31,MASTERCARD,0000000
+500608,1,Toronto Yonge St,Ontario,2026-08-28,Camping,2-Person Tent,2,304.31,AMEX,100122
+500609,1,Toronto Yonge St,Ontario,2026-08-28,Camping,Sleeping Pad,1,312.79,MASTERCARD,100295
+500610,1,Toronto Yonge St,Ontario,2026-08-28,Footwear,Alpine Hiking Shoe,1,42.76,DEBIT,100179
+500611,1,Toronto Yonge St,Ontario,2026-08-28,Camping,Sleeping Pad,1,221.48,GIFT_CARD,100354
+500612,1,Toronto Yonge St,Ontario,2026-08-28,Apparel,Merino Base Layer,1,113.38,GIFT_CARD,100039
+500613,1,Toronto Yonge St,Ontario,2026-08-28,Camping,Sleeping Bag -10C,1,282.46,DEBIT,100360
+500614,1,Toronto Yonge St,Ontario,2026-08-28,Footwear,Insulated Winter Boot,1,104.86,DEBIT,100358
+500615,1,Toronto Yonge St,Ontario,2026-08-28,Footwear,Trailrunner Boot,1,74.59,MASTERCARD,100209
+500616,1,Toronto Yonge St,Ontario,2026-08-28,Apparel,Fleece Pullover,1,62.05,VISA,100079
+500617,1,Toronto Yonge St,Ontario,2026-08-28,Camping,Camp Stove,1,185.45,MASTERCARD,100391
+500618,1,Toronto Yonge St,Ontario,2026-08-28,Footwear,Insulated Winter Boot,1,188.14,GIFT_CARD,100110
+500619,1,Toronto Yonge St,Ontario,2026-08-28,Footwear,Trailrunner Boot,1,145.52,AMEX,100144
+500620,1,Toronto Yonge St,Ontario,2026-08-28,Camping,2-Person Tent,1,169.34,AMEX,0000000
+500621,1,Toronto Yonge St,Ontario,2026-08-28,Accessories,Wool Socks 3-Pack,1,150.08,AMEX,0000000
+500622,2,Toronto Scarborough,Ontario,2026-08-28,Footwear,Alpine Hiking Shoe,1,275.45,GIFT_CARD,100198
+500623,2,Toronto Scarborough,Ontario,2026-08-28,Footwear,Alpine Hiking Shoe,1,271.28,AMEX,100013
+500624,2,Toronto Scarborough,Ontario,2026-08-28,Accessories,Headlamp 300lm,3,140.35,AMEX,100399
+500625,2,Toronto Scarborough,Ontario,2026-08-28,Camping,Trekking Pole Pair,1,312.52,GIFT_CARD,100386
+500626,2,Toronto Scarborough,Ontario,2026-08-28,Apparel,Down Vest,1,129.76,VISA,100053
+500627,2,Toronto Scarborough,Ontario,2026-08-28,Camping,Sleeping Bag -10C,1,107.95,VISA,0000000
+500628,2,Toronto Scarborough,Ontario,2026-08-28,Accessories,Headlamp 300lm,1,247.66,MASTERCARD,100340
+500629,2,Toronto Scarborough,Ontario,2026-08-28,Apparel,Merino Base Layer,2,201.8,DEBIT,100019
+500630,2,Toronto Scarborough,Ontario,2026-08-28,Apparel,Fleece Pullover,1,274.16,VISA,100138
+500631,2,Toronto Scarborough,Ontario,2026-08-28,Accessories,Carabiner 4-Pack,1,296.72,MASTERCARD,100118
+500632,2,Toronto Scarborough,Ontario,2026-08-28,Accessories,Carabiner 4-Pack,1,127.62,AMEX,0000000
+500633,2,Toronto Scarborough,Ontario,2026-08-28,Accessories,Dry Bag 20L,1,124.56,MASTERCARD,100371
+500634,2,Toronto Scarborough,Ontario,2026-08-28,Accessories,Carabiner 4-Pack,1,287.53,GIFT_CARD,100193
+500635,2,Toronto Scarborough,Ontario,2026-08-28,Camping,2-Person Tent,1,202.37,DEBIT,100097
+500636,2,Toronto Scarborough,Ontario,2026-08-28,Apparel,Rain Shell,1,207.04,MASTERCARD,100397
+500637,2,Toronto Scarborough,Ontario,2026-08-28,Apparel,Fleece Pullover,1,166.64,GIFT_CARD,100311
+500638,2,Toronto Scarborough,Ontario,2026-08-28,Accessories,Carabiner 4-Pack,1,244.35,MASTERCARD,100226
+500639,3,Ottawa Rideau,Ontario,2026-08-28,Accessories,Headlamp 300lm,1,86.38,AMEX,100089
+500640,3,Ottawa Rideau,Ontario,2026-08-28,Apparel,  Merino Base Layer ,1,294.08,MASTERCARD,100181
+500641,3,Ottawa Rideau,Ontario,2026-08-28,Camping,Sleeping Pad,1,294.95,GIFT_CARD,100008
+500642,3,Ottawa Rideau,Ontario,2026-08-28,Accessories,Dry Bag 20L,1,85.84,DEBIT,100249
+500643,3,Ottawa Rideau,Ontario,2026-08-28,Camping,Trekking Pole Pair,1,135.79,AMEX,0000000
+500644,3,Ottawa Rideau,Ontario,2026-08-28,Footwear,Insulated Winter Boot,1,170.33,DEBIT,0000000
+500645,3,Ottawa Rideau,Ontario,2026-08-28,Accessories,Carabiner 4-Pack,1,161.8,DEBIT,100231
+500646,3,Ottawa Rideau,Ontario,2026-08-28,Apparel,Fleece Pullover,1,252.85,VISA,100309
+500647,3,Ottawa Rideau,Ontario,2026-08-28,Footwear,Alpine Hiking Shoe,1,189.21,AMEX,100391
+500648,3,Ottawa Rideau,Ontario,2026-08-28,Footwear,Trail Runner Low,1,38.56,MASTERCARD,100094
+500649,3,Ottawa Rideau,Ontario,2026-08-28,Apparel,Softshell Jacket,1,259.75,AMEX,100096
+500650,4,Montreal Ste-Catherine,Quebec,2026-08-28,Accessories,Wool Socks 3-Pack,1,297.88,DEBIT,0000000
+500651,4,Montreal Ste-Catherine,Quebec,2026-08-28,Footwear,Insulated Winter Boot,1,52.87,AMEX,0000000
+500652,4,Montreal Ste-Catherine,Quebec,2026-08-28,Accessories,Dry Bag 20L,1,239.98,AMEX,100075
+500653,4,Montreal Ste-Catherine,Quebec,2026-08-28,Footwear,Alpine Hiking Shoe,1,168.0,MASTERCARD,100007
+500654,4,Montreal Ste-Catherine,Quebec,2026-08-28,Accessories,Wool Socks 3-Pack,1,149.67,AMEX,100364
+500655,4,Montreal Ste-Catherine,Quebec,2026-08-28,Camping,Camp Stove,1,56.09,GIFT_CARD,100165
+500656,4,Montreal Ste-Catherine,Quebec,2026-08-28,Camping,Camp Stove,1,250.18,DEBIT,100308
+500657,4,Montreal Ste-Catherine,Quebec,2026-08-28,Apparel,Fleece Pullover,1,66.13,AMEX,100005
+500658,4,Montreal Ste-Catherine,Quebec,28/08/2026,Accessories,Hydration Pack,3,82.18,MASTERCARD,100195
+500659,4,Montreal Ste-Catherine,Quebec,2026-08-28,Camping,2-Person Tent,1,184.93,MASTERCARD,100005
+500660,4,Montreal Ste-Catherine,Quebec,2026-08-28,Accessories,Dry Bag 20L,3,152.26,VISA,100325
+500661,4,Montreal Ste-Catherine,Quebec,2026-08-28,Camping,Sleeping Pad,2,47.58,AMEX,100256
+500662,4,Montreal Ste-Catherine,Quebec,2026-08-28,Camping,Sleeping Pad,1,244.09,GIFT_CARD,0000000
+500663,4,Montreal Ste-Catherine,Quebec,2026-08-28,Accessories,Hydration Pack,1,313.53,MASTERCARD,0000000
+500664,4,Montreal Ste-Catherine,Quebec,2026-08-28,Camping,Sleeping Pad,3,258.59,AMEX,100387
+500665,4,Montreal Ste-Catherine,Quebec,2026-08-28,Accessories,Hydration Pack,1,206.12,VISA,0000000
+500666,4,Montreal Ste-Catherine,Quebec,2026-08-28,Apparel,Down Vest,1,220.2,VISA,100117
+500667,4,Montreal Ste-Catherine,Quebec,2026-08-28,Apparel,Fleece Pullover,2,141.74,AMEX,100100
+500668,4,Montreal Ste-Catherine,Quebec,2026-08-28,Footwear,Trailrunner Boot,1,209.96,AMEX,100358
+500669,4,Montreal Ste-Catherine,Quebec,2026-08-28,Footwear,Trail Runner Low,1,314.45,VISA,100223
+500670,5,Quebec City Laurier,Quebec,2026-08-28,Accessories,Dry Bag 20L,1,53.22,AMEX,100067
+500671,5,Quebec City Laurier,Quebec,2026-08-28,Camping,Sleeping Pad,1,220.36,VISA,100029
+500672,5,Quebec City Laurier,Quebec,2026-08-28,Camping,Sleeping Pad,1,93.39,VISA,100028
+500673,5,Quebec City Laurier,Quebec,2026-08-28,Apparel,Rain Shell,1,123.26,VISA,0000000
+500674,5,Quebec City Laurier,Quebec,2026-08-28,Camping,Trekking Pole Pair,1,192.82,VISA,100242
+500675,5,Quebec City Laurier,Quebec,2026-08-28,Camping,Camp Stove,1,287.03,MASTERCARD,100023
+500676,5,Quebec City Laurier,Quebec,2026-08-28,Apparel,Down Vest,1,142.98,DEBIT,0000000
+500677,5,Quebec City Laurier,Quebec,2026-08-28,Footwear,Trail Runner Low,1,205.48,DEBIT,100173
+500678,5,Quebec City Laurier,Quebec,2026-08-28,Accessories,Wool Socks 3-Pack,1,140.23,GIFT_CARD,0000000
+500679,5,Quebec City Laurier,Quebec,2026-08-28,Footwear,Alpine Hiking Shoe,1,114.99,AMEX,0000000
+500680,5,Quebec City Laurier,Quebec,2026-08-28,Camping,Sleeping Bag -10C,2,228.83,VISA,100130
+500681,5,Quebec City Laurier,Quebec,2026-08-28,Camping,Sleeping Pad,1,137.39,DEBIT,0000000
+500682,5,Quebec City Laurier,Quebec,2026-08-28,Accessories,Dry Bag 20L,1,72.33,AMEX,100219
+500683,5,Quebec City Laurier,Quebec,2026-08-28,Footwear,Insulated Winter Boot,1,56.53,GIFT_CARD,100214
+500684,5,Quebec City Laurier,Quebec,2026-08-28,Footwear,Alpine Hiking Shoe,1,186.15,VISA,100092
+500685,5,Quebec City Laurier,Quebec,2026-08-28,Accessories,Wool Socks 3-Pack,1,271.15,VISA,0000000
+500686,5,Quebec City Laurier,Quebec,2026-08-28,Camping,Sleeping Pad,1,270.87,MASTERCARD,0000000
+500687,5,Quebec City Laurier,Quebec,2026-08-28,Apparel,Merino Base Layer,1,102.61,MASTERCARD,100263
+500688,6,Vancouver Robson,British Columbia,2026-08-28,Camping,2-Person Tent,1,75.01,MASTERCARD,100084
+500689,6,Vancouver Robson,British Columbia,2026-08-28,Camping,2-Person Tent,3,24.05,MASTERCARD,0000000
+500690,6,Vancouver Robson,British Columbia,28/08/2026,Footwear,Insulated Winter Boot,1,147.31,DEBIT,100204
+500691,6,Vancouver Robson,British Columbia,28/08/2026,Footwear,Insulated Winter Boot,1,188.0,DEBIT,0000000
+500692,6,Vancouver Robson,British Columbia,2026-08-28,Accessories,Wool Socks 3-Pack,2,273.06,VISA,100301
+500693,6,Vancouver Robson,British Columbia,2026-08-28,Apparel,Merino Base Layer,1,291.17,GIFT_CARD,0000000
+500694,6,Vancouver Robson,British Columbia,2026-08-28,Apparel,Down Vest,1,231.04,MASTERCARD,0000000
+500695,6,Vancouver Robson,British Columbia,2026-08-28,Footwear,Trail Runner Low,2,185.87,MASTERCARD,100364
+500696,6,Vancouver Robson,British Columbia,2026-08-28,Accessories,Headlamp 300lm,1,224.45,MASTERCARD,100294
+500697,6,Vancouver Robson,British Columbia,2026-08-28,Apparel,Down Vest,1,270.79,MASTERCARD,100251
+500698,6,Vancouver Robson,British Columbia,2026-08-28,Accessories,Wool Socks 3-Pack,1,70.87,VISA,0000000
+500699,6,Vancouver Robson,British Columbia,2026-08-28,Accessories,Wool Socks 3-Pack,1,24.77,AMEX,100379
+500700,6,Vancouver Robson,British Columbia,2026-08-28,Camping,2-Person Tent,1,279.11,AMEX,100370
+500701,6,Vancouver Robson,British Columbia,2026-08-28,Accessories,Carabiner 4-Pack,1,257.96,VISA,100207
+500702,6,Vancouver Robson,British Columbia,2026-08-28,Footwear,Trailrunner Boot,1,170.8,AMEX,100183
+500703,6,Vancouver Robson,British Columbia,2026-08-28,Accessories,Hydration Pack,1,314.93,AMEX,100257
+500704,6,Vancouver Robson,British Columbia,2026-08-28,Camping,Trekking Pole Pair,1,138.57,GIFT_CARD,0000000
+500705,6,Vancouver Robson,British Columbia,2026-08-28,Apparel,Fleece Pullover,1,99.25,GIFT_CARD,100381
+500706,6,Vancouver Robson,British Columbia,2026-08-28,Apparel,Rain Shell,1,177.81,DEBIT,0000000
+500707,6,Vancouver Robson,British Columbia,2026-08-28,Footwear,Alpine Hiking Shoe,1,144.1,VISA,100092
+500708,6,Vancouver Robson,British Columbia,2026-08-28,Accessories,  Wool Socks 3-Pack ,1,253.04,DEBIT,0000000
+500709,6,Vancouver Robson,British Columbia,2026-08-28,Footwear,Trailrunner Boot,1,284.73,MASTERCARD,0000000
+500710,7,Victoria Douglas,British Columbia,2026-08-28,Apparel,Merino Base Layer,1,180.67,VISA,100256
+500711,7,Victoria Douglas,British Columbia,28/08/2026,Apparel,Merino Base Layer,1,91.05,GIFT_CARD,0000000
+500712,7,Victoria Douglas,British Columbia,2026-08-28,Accessories,Dry Bag 20L,2,116.7,DEBIT,0000000
+500713,7,Victoria Douglas,British Columbia,2026-08-28,Apparel,Rain Shell,1,264.63,DEBIT,100145
+500714,7,Victoria Douglas,British Columbia,2026-08-28,Accessories,Dry Bag 20L,1,128.65,AMEX,100197
+500715,7,Victoria Douglas,British Columbia,2026-08-28,Camping,Trekking Pole Pair,1,48.26,GIFT_CARD,100318
+500716,7,Victoria Douglas,British Columbia,2026-08-28,Camping,Sleeping Bag -10C,2,253.17,AMEX,0000000
+500717,7,Victoria Douglas,British Columbia,2026-08-28,Camping,2-Person Tent,1,242.5,AMEX,100268
+500718,7,Victoria Douglas,British Columbia,2026-08-28,Camping,2-Person Tent,1,40.6,GIFT_CARD,100310
+500719,7,Victoria Douglas,British Columbia,2026-08-28,Accessories,Wool Socks 3-Pack,1,73.23,AMEX,100117
+500720,7,Victoria Douglas,British Columbia,2026-08-28,Camping,Sleeping Pad,1,95.16,GIFT_CARD,100313
+500721,7,Victoria Douglas,British Columbia,2026-08-28,Camping,Sleeping Bag -10C,3,281.99,DEBIT,100299
+500722,7,Victoria Douglas,British Columbia,2026-08-28,Footwear,Alpine Hiking Shoe,2,86.4,DEBIT,100260
+500723,7,Victoria Douglas,British Columbia,2026-08-28,Footwear,Alpine Hiking Shoe,1,215.93,GIFT_CARD,100085
+500724,7,Victoria Douglas,British Columbia,2026-08-28,Footwear,Insulated Winter Boot,1,154.37,MASTERCARD,100371
+500725,7,Victoria Douglas,British Columbia,2026-08-28,Footwear,Insulated Winter Boot,1,261.05,GIFT_CARD,100063
+500726,7,Victoria Douglas,British Columbia,2026-08-28,Apparel,Merino Base Layer,1,173.17,MASTERCARD,100341
+500727,7,Victoria Douglas,British Columbia,2026-08-28,Apparel,Merino Base Layer,1,221.02,MASTERCARD,100125
+500728,7,Victoria Douglas,British Columbia,2026-08-28,Apparel,Fleece Pullover,1,185.81,GIFT_CARD,0000000
+500729,7,Victoria Douglas,British Columbia,2026-08-28,Footwear,Alpine Hiking Shoe,1,264.77,AMEX,100382
+500730,7,Victoria Douglas,British Columbia,2026-08-28,Apparel,Rain Shell,1,120.24,VISA,100035
+500731,8,Calgary Stephen Ave,Alberta,2026-08-28,Accessories,Carabiner 4-Pack,1,260.6,VISA,100033
+500732,8,Calgary Stephen Ave,Alberta,2026-08-28,Camping,Trekking Pole Pair,1,226.1,DEBIT,100218
+500733,8,Calgary Stephen Ave,Alberta,2026-08-28,Camping,Sleeping Pad,3,234.19,AMEX,100148
+500734,8,Calgary Stephen Ave,Alberta,2026-08-28,Accessories,Carabiner 4-Pack,1,185.72,DEBIT,100397
+500735,8,Calgary Stephen Ave,Alberta,2026-08-28,Camping,  Trekking Pole Pair ,1,89.43,VISA,0000000
+500736,8,Calgary Stephen Ave,Alberta,2026-08-28,Camping,Sleeping Bag -10C,1,135.67,MASTERCARD,100280
+500737,8,Calgary Stephen Ave,Alberta,2026-08-28,Footwear,Alpine Hiking Shoe,1,199.45,MASTERCARD,0000000
+500738,8,Calgary Stephen Ave,Alberta,2026-08-28,Camping,Sleeping Bag -10C,2,109.62,MASTERCARD,0000000
+500739,9,Edmonton Whyte Ave,Alberta,2026-08-28,Accessories,Headlamp 300lm,1,297.65,AMEX,100093
+500740,9,Edmonton Whyte Ave,Alberta,2026-08-28,Camping,Sleeping Pad,1,39.75,AMEX,100311
+500741,9,Edmonton Whyte Ave,Alberta,2026-08-28,Accessories,Hydration Pack,1,32.64,DEBIT,100366
+500742,9,Edmonton Whyte Ave,Alberta,2026-08-28,Apparel,Rain Shell,2,142.41,DEBIT,100274
+500743,9,Edmonton Whyte Ave,Alberta,2026-08-28,Camping,Sleeping Bag -10C,1,82.61,AMEX,100388
+500744,9,Edmonton Whyte Ave,Alberta,2026-08-28,Footwear,Alpine Hiking Shoe,1,305.55,DEBIT,100326
+500745,9,Edmonton Whyte Ave,Alberta,2026-08-28,Footwear,Alpine Hiking Shoe,1,194.54,AMEX,100088
+500746,9,Edmonton Whyte Ave,Alberta,2026-08-28,Camping,Camp Stove,1,227.36,DEBIT,100055
+500747,9,Edmonton Whyte Ave,Alberta,2026-08-28,Footwear,Trail Runner Low,1,77.47,VISA,100313
+500748,9,Edmonton Whyte Ave,Alberta,2026-08-28,Apparel,Down Vest,3,56.97,MASTERCARD,100159
+500749,9,Edmonton Whyte Ave,Alberta,2026-08-28,Camping,  Sleeping Bag -10C ,2,311.83,VISA,100330
+500750,9,Edmonton Whyte Ave,Alberta,2026-08-28,Accessories,Hydration Pack,1,302.68,MASTERCARD,100141
+500751,9,Edmonton Whyte Ave,Alberta,2026-08-28,Footwear,Trail Runner Low,1,104.24,VISA,100262
+500752,9,Edmonton Whyte Ave,Alberta,2026-08-28,Camping,Sleeping Pad,1,236.57,GIFT_CARD,100050
+500753,9,Edmonton Whyte Ave,Alberta,2026-08-28,Apparel,Down Vest,1,26.53,MASTERCARD,100374
+500754,9,Edmonton Whyte Ave,Alberta,2026-08-28,Accessories,Headlamp 300lm,1,311.62,VISA,100118
+500755,9,Edmonton Whyte Ave,Alberta,2026-08-28,Apparel,Down Vest,2,266.76,GIFT_CARD,100068
+500756,9,Edmonton Whyte Ave,Alberta,2026-08-28,Apparel,Fleece Pullover,1,255.16,VISA,100193
+500757,9,Edmonton Whyte Ave,Alberta,2026-08-28,Camping,Sleeping Bag -10C,3,154.27,DEBIT,0000000
+500758,10,Halifax Spring Garden,Atlantic,2026-08-28,Footwear,Trailrunner Boot,1,288.15,DEBIT,100149
+500759,10,Halifax Spring Garden,Atlantic,2026-08-28,Accessories,Carabiner 4-Pack,1,161.14,MASTERCARD,100326
+500760,10,Halifax Spring Garden,Atlantic,2026-08-28,Camping,Trekking Pole Pair,1,24.86,GIFT_CARD,100142
+500761,10,Halifax Spring Garden,Atlantic,2026-08-28,Accessories,Hydration Pack,1,86.86,DEBIT,100142
+500762,10,Halifax Spring Garden,Atlantic,2026-08-28,Camping,Sleeping Pad,1,98.74,AMEX,100077
+500763,10,Halifax Spring Garden,Atlantic,2026-08-28,Accessories,Carabiner 4-Pack,1,52.92,GIFT_CARD,0000000
+500764,10,Halifax Spring Garden,Atlantic,2026-08-28,Camping,Sleeping Pad,1,306.51,DEBIT,100329
+500765,10,Halifax Spring Garden,Atlantic,2026-08-28,Accessories,Hydration Pack,1,115.01,AMEX,100193
+500766,1,Toronto Yonge St,Ontario,2026-08-29,Footwear,Alpine Hiking Shoe,1,91.64,VISA,0000000
+500767,1,Toronto Yonge St,Ontario,2026-08-29,Camping,2-Person Tent,1,219.71,GIFT_CARD,0000000
+500768,1,Toronto Yonge St,Ontario,2026-08-29,Footwear,Trail Runner Low,1,210.17,GIFT_CARD,0000000
+500769,1,Toronto Yonge St,Ontario,2026-08-29,Camping,Camp Stove,2,147.87,VISA,0000000
+500770,1,Toronto Yonge St,Ontario,2026-08-29,Accessories,Headlamp 300lm,1,134.5,MASTERCARD,100106
+500771,1,Toronto Yonge St,Ontario,2026-08-29,Accessories,Headlamp 300lm,2,37.49,DEBIT,100250
+500772,1,Toronto Yonge St,Ontario,2026-08-29,Accessories,Wool Socks 3-Pack,1,32.19,MASTERCARD,100172
+500773,1,Toronto Yonge St,Ontario,2026-08-29,Footwear,Trail Runner Low,1,313.33,VISA,0000000
+500774,1,Toronto Yonge St,Ontario,2026-08-29,Camping,2-Person Tent,1,50.78,GIFT_CARD,100100
+500775,1,Toronto Yonge St,Ontario,29/08/2026,Accessories,Headlamp 300lm,1,181.79,VISA,100202
+500776,2,Toronto Scarborough,Ontario,2026-08-29,Apparel,Merino Base Layer,1,55.54,AMEX,100223
+500777,2,Toronto Scarborough,Ontario,2026-08-29,Apparel,Merino Base Layer,1,92.74,GIFT_CARD,0000000
+500778,2,Toronto Scarborough,Ontario,2026-08-29,Camping,Camp Stove,1,163.14,DEBIT,100141
+500779,2,Toronto Scarborough,Ontario,2026-08-29,Apparel,Merino Base Layer,1,260.2,DEBIT,100309
+500780,2,Toronto Scarborough,Ontario,29/08/2026,Apparel,Down Vest,1,232.92,GIFT_CARD,0000000
+500781,2,Toronto Scarborough,Ontario,2026-08-29,Camping,Sleeping Bag -10C,1,282.68,VISA,100398
+500782,2,Toronto Scarborough,Ontario,2026-08-29,Apparel,Down Vest,2,234.21,MASTERCARD,100169
+500783,2,Toronto Scarborough,Ontario,2026-08-29,Camping,Sleeping Bag -10C,1,276.7,GIFT_CARD,100107
+500784,2,Toronto Scarborough,Ontario,2026-08-29,Footwear,Trail Runner Low,1,127.2,VISA,100096
+500785,3,Ottawa Rideau,Ontario,2026-08-29,Apparel,Fleece Pullover,1,232.98,AMEX,100064
+500786,3,Ottawa Rideau,Ontario,2026-08-29,Footwear,Trailrunner Boot,1,265.07,GIFT_CARD,100063
+500787,3,Ottawa Rideau,Ontario,2026-08-29,Accessories,Hydration Pack,1,237.6,MASTERCARD,100334
+500788,3,Ottawa Rideau,Ontario,2026-08-29,Camping,Trekking Pole Pair,1,252.26,DEBIT,100283
+500789,3,Ottawa Rideau,Ontario,29/08/2026,Footwear,Trailrunner Boot,1,106.6,AMEX,100398
+500790,3,Ottawa Rideau,Ontario,2026-08-29,Camping,Camp Stove,3,41.64,VISA,100237
+500791,3,Ottawa Rideau,Ontario,2026-08-29,Apparel,Down Vest,1,298.79,GIFT_CARD,100081
+500792,3,Ottawa Rideau,Ontario,2026-08-29,Footwear,Insulated Winter Boot,1,77.14,MASTERCARD,100107
+500793,3,Ottawa Rideau,Ontario,2026-08-29,Apparel,Down Vest,1,91.79,GIFT_CARD,100068
+500794,3,Ottawa Rideau,Ontario,2026-08-29,Accessories,Hydration Pack,1,82.86,VISA,100384
+500795,3,Ottawa Rideau,Ontario,2026-08-29,Footwear,Trailrunner Boot,1,44.64,GIFT_CARD,100035
+500796,3,Ottawa Rideau,Ontario,2026-08-29,Apparel,Fleece Pullover,1,182.44,GIFT_CARD,100339
+500797,3,Ottawa Rideau,Ontario,2026-08-29,Camping,Camp Stove,1,278.68,AMEX,100396
+500798,4,Montreal Ste-Catherine,Quebec,2026-08-29,Apparel,Softshell Jacket,1,82.23,AMEX,0000000
+500799,4,Montreal Ste-Catherine,Quebec,2026-08-29,Accessories,Hydration Pack,1,168.04,DEBIT,100257
+500800,4,Montreal Ste-Catherine,Quebec,2026-08-29,Accessories,Carabiner 4-Pack,1,154.29,GIFT_CARD,100209
+500801,4,Montreal Ste-Catherine,Quebec,2026-08-29,Camping,Trekking Pole Pair,1,169.32,DEBIT,100022
+500802,4,Montreal Ste-Catherine,Quebec,2026-08-29,Accessories,Dry Bag 20L,1,32.47,VISA,100112
+500803,4,Montreal Ste-Catherine,Quebec,2026-08-29,Apparel,Rain Shell,1,185.41,DEBIT,100324
+500804,4,Montreal Ste-Catherine,Quebec,2026-08-29,Camping,Sleeping Pad,1,155.62,AMEX,100099
+500805,4,Montreal Ste-Catherine,Quebec,2026-08-29,Accessories,Headlamp 300lm,2,65.85,GIFT_CARD,100279
+500806,4,Montreal Ste-Catherine,Quebec,29/08/2026,Accessories,Dry Bag 20L,1,229.81,VISA,100093
+500807,5,Quebec City Laurier,Quebec,2026-08-29,Apparel,Fleece Pullover,1,122.91,DEBIT,100166
+500808,5,Quebec City Laurier,Quebec,2026-08-29,Footwear,Alpine Hiking Shoe,1,218.33,MASTERCARD,100300
+500809,5,Quebec City Laurier,Quebec,2026-08-29,Accessories,Dry Bag 20L,1,150.92,AMEX,100325
+500810,5,Quebec City Laurier,Quebec,2026-08-29,Footwear,Alpine Hiking Shoe,1,33.58,DEBIT,100053
+500811,5,Quebec City Laurier,Quebec,2026-08-29,Accessories,Hydration Pack,1,200.64,AMEX,100058
+500812,5,Quebec City Laurier,Quebec,2026-08-29,Camping,Trekking Pole Pair,1,45.46,DEBIT,100157
+500813,5,Quebec City Laurier,Quebec,2026-08-29,Accessories,Carabiner 4-Pack,1,319.39,MASTERCARD,100391
+500814,5,Quebec City Laurier,Quebec,2026-08-29,Accessories,Dry Bag 20L,1,230.19,MASTERCARD,100118
+500815,5,Quebec City Laurier,Quebec,2026-08-29,Footwear,Trail Runner Low,1,26.66,DEBIT,100211
+500816,5,Quebec City Laurier,Quebec,2026-08-29,Footwear,Trail Runner Low,1,257.01,MASTERCARD,100117
+500817,5,Quebec City Laurier,Quebec,2026-08-29,Apparel,Merino Base Layer,1,153.28,GIFT_CARD,100238
+500818,5,Quebec City Laurier,Quebec,2026-08-29,Footwear,Trail Runner Low,1,249.54,DEBIT,100318
+500819,5,Quebec City Laurier,Quebec,2026-08-29,Accessories,Hydration Pack,2,95.09,GIFT_CARD,100365
+500820,5,Quebec City Laurier,Quebec,2026-08-29,Camping,Sleeping Pad,1,144.55,MASTERCARD,100116
+500821,5,Quebec City Laurier,Quebec,2026-08-29,Footwear,Alpine Hiking Shoe,1,178.51,DEBIT,100272
+500822,5,Quebec City Laurier,Quebec,2026-08-29,Apparel,Rain Shell,1,303.67,GIFT_CARD,100113
+500823,5,Quebec City Laurier,Quebec,2026-08-29,Footwear,Insulated Winter Boot,1,227.07,VISA,100093
+500824,6,Vancouver Robson,British Columbia,2026-08-29,Camping,Sleeping Pad,1,38.04,GIFT_CARD,100326
+500825,6,Vancouver Robson,British Columbia,2026-08-29,Camping,2-Person Tent,1,92.24,DEBIT,100273
+500826,6,Vancouver Robson,British Columbia,2026-08-29,Camping,Sleeping Pad,3,41.11,AMEX,100343
+500827,6,Vancouver Robson,British Columbia,2026-08-29,Accessories,Carabiner 4-Pack,1,179.06,GIFT_CARD,100347
+500828,6,Vancouver Robson,British Columbia,2026-08-29,Footwear,Trail Runner Low,1,81.68,GIFT_CARD,100277
+500829,6,Vancouver Robson,British Columbia,2026-08-29,Camping,Trekking Pole Pair,3,283.07,DEBIT,0000000
+500830,6,Vancouver Robson,British Columbia,2026-08-29,Footwear,  Trailrunner Boot ,2,218.24,AMEX,100264
+500831,6,Vancouver Robson,British Columbia,2026-08-29,Accessories,Dry Bag 20L,1,28.64,DEBIT,100000
+500832,6,Vancouver Robson,British Columbia,2026-08-29,Footwear,Trail Runner Low,1,179.32,AMEX,100073
+500833,6,Vancouver Robson,British Columbia,2026-08-29,Accessories,Hydration Pack,1,247.03,GIFT_CARD,100317
+500834,6,Vancouver Robson,British Columbia,2026-08-29,Accessories,Carabiner 4-Pack,1,181.85,GIFT_CARD,100064
+500835,6,Vancouver Robson,British Columbia,2026-08-29,Camping,2-Person Tent,2,69.91,GIFT_CARD,100294
+500836,6,Vancouver Robson,British Columbia,29/08/2026,Footwear,Trailrunner Boot,3,61.98,DEBIT,100077
+500837,6,Vancouver Robson,British Columbia,2026-08-29,Apparel,Softshell Jacket,1,187.58,MASTERCARD,100309
+500838,7,Victoria Douglas,British Columbia,2026-08-29,Camping,Camp Stove,1,239.7,GIFT_CARD,100172
+500839,7,Victoria Douglas,British Columbia,29/08/2026,Apparel,Softshell Jacket,1,216.83,DEBIT,100283
+500840,7,Victoria Douglas,British Columbia,2026-08-29,Camping,Sleeping Pad,1,90.25,AMEX,0000000
+500841,7,Victoria Douglas,British Columbia,2026-08-29,Camping,Camp Stove,1,55.21,VISA,100030
+500842,7,Victoria Douglas,British Columbia,2026-08-29,Footwear,Insulated Winter Boot,1,76.49,DEBIT,100366
+500843,7,Victoria Douglas,British Columbia,2026-08-29,Apparel,Merino Base Layer,1,233.7,MASTERCARD,100217
+500844,7,Victoria Douglas,British Columbia,2026-08-29,Accessories,Headlamp 300lm,1,146.35,VISA,0000000
+500845,7,Victoria Douglas,British Columbia,2026-08-29,Footwear,Insulated Winter Boot,1,166.44,AMEX,100384
+500846,7,Victoria Douglas,British Columbia,2026-08-29,Accessories,Dry Bag 20L,1,313.34,GIFT_CARD,0000000
+500847,7,Victoria Douglas,British Columbia,2026-08-29,Apparel,Merino Base Layer,1,219.89,MASTERCARD,100026
+500848,7,Victoria Douglas,British Columbia,2026-08-29,Camping,2-Person Tent,1,286.11,MASTERCARD,100159
+500849,7,Victoria Douglas,British Columbia,2026-08-29,Footwear,Trailrunner Boot,2,238.43,VISA,100211
+500850,7,Victoria Douglas,British Columbia,2026-08-29,Camping,Sleeping Pad,3,265.81,AMEX,100366
+500851,7,Victoria Douglas,British Columbia,2026-08-29,Apparel,Merino Base Layer,1,72.81,MASTERCARD,100159
+500852,7,Victoria Douglas,British Columbia,2026-08-29,Footwear,Trailrunner Boot,1,202.34,DEBIT,100370
+500853,7,Victoria Douglas,British Columbia,2026-08-29,Accessories,Wool Socks 3-Pack,1,194.78,VISA,100240
+500854,7,Victoria Douglas,British Columbia,2026-08-29,Camping,Camp Stove,1,65.86,MASTERCARD,0000000
+500855,7,Victoria Douglas,British Columbia,2026-08-29,Footwear,Trail Runner Low,1,102.18,VISA,0000000
+500856,7,Victoria Douglas,British Columbia,2026-08-29,Camping,Trekking Pole Pair,1,227.91,GIFT_CARD,100176
+500857,7,Victoria Douglas,British Columbia,2026-08-29,Accessories,Dry Bag 20L,1,104.26,DEBIT,100133
+500858,7,Victoria Douglas,British Columbia,2026-08-29,Apparel,Rain Shell,2,21.49,VISA,100079
+500859,8,Calgary Stephen Ave,Alberta,2026-08-29,Footwear,Alpine Hiking Shoe,1,133.76,GIFT_CARD,100022
+500860,8,Calgary Stephen Ave,Alberta,2026-08-29,Camping,Sleeping Bag -10C,1,77.65,AMEX,0000000
+500861,8,Calgary Stephen Ave,Alberta,2026-08-29,Camping,Camp Stove,1,241.17,DEBIT,100044
+500862,8,Calgary Stephen Ave,Alberta,2026-08-29,Camping,Sleeping Bag -10C,1,90.14,VISA,100136
+500863,8,Calgary Stephen Ave,Alberta,2026-08-29,Apparel,Merino Base Layer,1,101.87,DEBIT,100022
+500864,8,Calgary Stephen Ave,Alberta,2026-08-29,Apparel,Softshell Jacket,1,181.88,MASTERCARD,100251
+500865,8,Calgary Stephen Ave,Alberta,2026-08-29,Accessories,Dry Bag 20L,3,210.8,GIFT_CARD,0000000
+500866,8,Calgary Stephen Ave,Alberta,2026-08-29,Footwear,Alpine Hiking Shoe,1,254.13,DEBIT,100082
+500867,8,Calgary Stephen Ave,Alberta,2026-08-29,Footwear,Insulated Winter Boot,1,319.8,VISA,100340
+500868,8,Calgary Stephen Ave,Alberta,2026-08-29,Camping,2-Person Tent,1,191.08,AMEX,100093
+500869,8,Calgary Stephen Ave,Alberta,2026-08-29,Accessories,Headlamp 300lm,1,92.69,AMEX,0000000
+500870,8,Calgary Stephen Ave,Alberta,2026-08-29,Apparel,Merino Base Layer,1,147.98,DEBIT,100005
+500871,8,Calgary Stephen Ave,Alberta,2026-08-29,Apparel,Merino Base Layer,1,209.02,AMEX,100067
+500872,8,Calgary Stephen Ave,Alberta,2026-08-29,Camping,Trekking Pole Pair,1,168.35,AMEX,0000000
+500873,8,Calgary Stephen Ave,Alberta,2026-08-29,Footwear,Alpine Hiking Shoe,1,81.13,MASTERCARD,100037
+500874,8,Calgary Stephen Ave,Alberta,2026-08-29,Accessories,Wool Socks 3-Pack,3,78.12,MASTERCARD,100362
+500875,8,Calgary Stephen Ave,Alberta,2026-08-29,Apparel,Rain Shell,1,308.97,GIFT_CARD,100219
+500876,8,Calgary Stephen Ave,Alberta,2026-08-29,Apparel,Rain Shell,1,172.5,MASTERCARD,100208
+500877,8,Calgary Stephen Ave,Alberta,2026-08-29,Accessories,Carabiner 4-Pack,1,115.73,MASTERCARD,100186
+500878,8,Calgary Stephen Ave,Alberta,2026-08-29,Camping,Sleeping Bag -10C,1,22.87,DEBIT,0000000
+500879,8,Calgary Stephen Ave,Alberta,2026-08-29,Accessories,Dry Bag 20L,1,78.45,AMEX,100360
+500880,9,Edmonton Whyte Ave,Alberta,2026-08-29,Accessories,Dry Bag 20L,1,160.96,MASTERCARD,100102
+500881,9,Edmonton Whyte Ave,Alberta,2026-08-29,Footwear,Trailrunner Boot,1,313.72,MASTERCARD,100081
+500882,9,Edmonton Whyte Ave,Alberta,2026-08-29,Footwear,Trailrunner Boot,1,206.48,DEBIT,100017
+500883,9,Edmonton Whyte Ave,Alberta,2026-08-29,Accessories,Wool Socks 3-Pack,1,107.99,AMEX,0000000
+500884,9,Edmonton Whyte Ave,Alberta,2026-08-29,Footwear,Alpine Hiking Shoe,1,233.26,MASTERCARD,100050
+500885,9,Edmonton Whyte Ave,Alberta,29/08/2026,Apparel,Fleece Pullover,1,112.2,MASTERCARD,100205
+500886,9,Edmonton Whyte Ave,Alberta,2026-08-29,Footwear,Alpine Hiking Shoe,1,190.24,DEBIT,100229
+500887,9,Edmonton Whyte Ave,Alberta,2026-08-29,Footwear,Insulated Winter Boot,1,262.97,VISA,0000000
+500888,9,Edmonton Whyte Ave,Alberta,2026-08-29,Apparel,Softshell Jacket,1,217.27,AMEX,100370
+500889,9,Edmonton Whyte Ave,Alberta,2026-08-29,Accessories,Dry Bag 20L,1,179.62,VISA,100018
+500890,9,Edmonton Whyte Ave,Alberta,2026-08-29,Camping,2-Person Tent,1,81.01,VISA,100198
+500891,9,Edmonton Whyte Ave,Alberta,2026-08-29,Accessories,Hydration Pack,1,107.59,DEBIT,100084
+500892,9,Edmonton Whyte Ave,Alberta,2026-08-29,Accessories,Carabiner 4-Pack,1,147.83,GIFT_CARD,100192
+500893,9,Edmonton Whyte Ave,Alberta,2026-08-29,Apparel,Rain Shell,1,113.34,AMEX,100254
+500894,9,Edmonton Whyte Ave,Alberta,2026-08-29,Camping,Camp Stove,1,45.67,DEBIT,0000000
+500895,9,Edmonton Whyte Ave,Alberta,2026-08-29,Footwear,Trail Runner Low,3,258.43,AMEX,100135
+500896,9,Edmonton Whyte Ave,Alberta,2026-08-29,Accessories,Hydration Pack,1,241.32,GIFT_CARD,0000000
+500897,9,Edmonton Whyte Ave,Alberta,2026-08-29,Camping,Trekking Pole Pair,1,23.91,GIFT_CARD,0000000
+500898,9,Edmonton Whyte Ave,Alberta,2026-08-29,Apparel,Fleece Pullover,1,97.18,GIFT_CARD,100115
+500899,9,Edmonton Whyte Ave,Alberta,2026-08-29,Apparel,Merino Base Layer,1,209.2,MASTERCARD,100321
+500900,10,Halifax Spring Garden,Atlantic,29/08/2026,Apparel,Merino Base Layer,1,251.53,VISA,100164
+500901,10,Halifax Spring Garden,Atlantic,2026-08-29,Accessories,Wool Socks 3-Pack,1,90.35,AMEX,100317
+500902,10,Halifax Spring Garden,Atlantic,2026-08-29,Accessories,Carabiner 4-Pack,1,201.99,GIFT_CARD,0000000
+500903,10,Halifax Spring Garden,Atlantic,2026-08-29,Accessories,Headlamp 300lm,1,290.09,MASTERCARD,100026
+500904,10,Halifax Spring Garden,Atlantic,2026-08-29,Apparel,Fleece Pullover,1,291.54,VISA,100397
+500905,10,Halifax Spring Garden,Atlantic,2026-08-29,Apparel,Merino Base Layer,1,34.93,AMEX,100373
+500906,10,Halifax Spring Garden,Atlantic,2026-08-29,Footwear,Insulated Winter Boot,1,194.61,VISA,100322
+500907,10,Halifax Spring Garden,Atlantic,2026-08-29,Accessories,Headlamp 300lm,1,92.17,AMEX,0000000
+500908,10,Halifax Spring Garden,Atlantic,2026-08-29,Apparel,Merino Base Layer,1,35.76,VISA,0000000
+500909,10,Halifax Spring Garden,Atlantic,2026-08-29,Camping,Camp Stove,2,284.92,DEBIT,100193
+500910,10,Halifax Spring Garden,Atlantic,2026-08-29,Accessories,Wool Socks 3-Pack,1,209.9,VISA,100153
+500911,10,Halifax Spring Garden,Atlantic,2026-08-29,Apparel,Softshell Jacket,1,33.27,GIFT_CARD,100352
+500912,1,Toronto Yonge St,Ontario,2026-08-30,Footwear,Trailrunner Boot,1,25.49,MASTERCARD,100241
+500913,1,Toronto Yonge St,Ontario,2026-08-30,Footwear,Alpine Hiking Shoe,1,89.24,GIFT_CARD,100255
+500914,1,Toronto Yonge St,Ontario,2026-08-30,Footwear,Insulated Winter Boot,1,53.34,AMEX,100070
+500915,1,Toronto Yonge St,Ontario,2026-08-30,Apparel,Fleece Pullover,1,154.49,MASTERCARD,100330
+500916,1,Toronto Yonge St,Ontario,2026-08-30,Camping,Camp Stove,1,41.57,GIFT_CARD,0000000
+500917,1,Toronto Yonge St,Ontario,2026-08-30,Camping,Camp Stove,1,272.99,GIFT_CARD,100199
+500918,1,Toronto Yonge St,Ontario,2026-08-30,Apparel,Softshell Jacket,3,258.25,DEBIT,100124
+500919,1,Toronto Yonge St,Ontario,2026-08-30,Footwear,Trailrunner Boot,1,267.4,GIFT_CARD,100159
+500920,1,Toronto Yonge St,Ontario,2026-08-30,Camping,Camp Stove,1,131.16,DEBIT,100013
+500921,1,Toronto Yonge St,Ontario,2026-08-30,Accessories,Carabiner 4-Pack,1,311.01,VISA,100119
+500922,1,Toronto Yonge St,Ontario,2026-08-30,Camping,2-Person Tent,1,302.17,DEBIT,100088
+500923,1,Toronto Yonge St,Ontario,2026-08-30,Footwear,Alpine Hiking Shoe,2,202.32,GIFT_CARD,100355
+500924,1,Toronto Yonge St,Ontario,2026-08-30,Camping,2-Person Tent,1,64.77,DEBIT,100279
+500925,1,Toronto Yonge St,Ontario,2026-08-30,Accessories,Wool Socks 3-Pack,1,305.58,DEBIT,100083
+500926,1,Toronto Yonge St,Ontario,2026-08-30,Accessories,Dry Bag 20L,2,160.23,AMEX,100337
+500927,1,Toronto Yonge St,Ontario,2026-08-30,Apparel,Softshell Jacket,1,156.33,AMEX,100096
+500928,1,Toronto Yonge St,Ontario,2026-08-30,Footwear,Trail Runner Low,1,241.88,VISA,100303
+500929,2,Toronto Scarborough,Ontario,2026-08-30,Accessories,Dry Bag 20L,1,157.34,DEBIT,100371
+500930,2,Toronto Scarborough,Ontario,2026-08-30,Apparel,Softshell Jacket,1,119.36,DEBIT,100117
+500931,2,Toronto Scarborough,Ontario,2026-08-30,Apparel,Softshell Jacket,1,301.34,MASTERCARD,100033
+500932,2,Toronto Scarborough,Ontario,2026-08-30,Apparel,Rain Shell,1,34.4,DEBIT,100327
+500933,2,Toronto Scarborough,Ontario,2026-08-30,Footwear,Insulated Winter Boot,1,80.47,VISA,100312
+500934,2,Toronto Scarborough,Ontario,2026-08-30,Camping,Sleeping Bag -10C,1,290.67,MASTERCARD,100382
+500935,2,Toronto Scarborough,Ontario,2026-08-30,Camping,Sleeping Bag -10C,1,127.0,AMEX,100120
+500936,2,Toronto Scarborough,Ontario,2026-08-30,Apparel,Down Vest,3,273.6,DEBIT,100227
+500937,2,Toronto Scarborough,Ontario,2026-08-30,Footwear,Trailrunner Boot,1,155.84,AMEX,100010
+500938,2,Toronto Scarborough,Ontario,2026-08-30,Apparel,Fleece Pullover,1,160.08,AMEX,100262
+500939,3,Ottawa Rideau,Ontario,2026-08-30,Apparel,Fleece Pullover,1,152.54,DEBIT,100326
+500940,3,Ottawa Rideau,Ontario,2026-08-30,Footwear,Alpine Hiking Shoe,1,153.35,DEBIT,100154
+500941,3,Ottawa Rideau,Ontario,2026-08-30,Camping,Sleeping Bag -10C,3,113.49,DEBIT,100372
+500942,3,Ottawa Rideau,Ontario,2026-08-30,Apparel,Fleece Pullover,1,48.41,AMEX,100101
+500943,3,Ottawa Rideau,Ontario,2026-08-30,Accessories,Dry Bag 20L,2,207.05,MASTERCARD,100323
+500944,3,Ottawa Rideau,Ontario,2026-08-30,Camping,Camp Stove,1,103.43,AMEX,100327
+500945,3,Ottawa Rideau,Ontario,2026-08-30,Footwear,Insulated Winter Boot,1,230.05,AMEX,100001
+500946,3,Ottawa Rideau,Ontario,2026-08-30,Apparel,Merino Base Layer,1,275.8,VISA,100059
+500947,3,Ottawa Rideau,Ontario,2026-08-30,Apparel,Fleece Pullover,1,235.02,AMEX,100322
+500948,3,Ottawa Rideau,Ontario,2026-08-30,Camping,Sleeping Pad,1,211.57,VISA,100305
+500949,3,Ottawa Rideau,Ontario,2026-08-30,Footwear,Trail Runner Low,1,122.07,VISA,100224
+500950,4,Montreal Ste-Catherine,Quebec,2026-08-30,Camping,Sleeping Bag -10C,1,234.8,MASTERCARD,100271
+500951,4,Montreal Ste-Catherine,Quebec,2026-08-30,Camping,Sleeping Bag -10C,1,50.88,VISA,100308
+500952,4,Montreal Ste-Catherine,Quebec,2026-08-30,Footwear,Alpine Hiking Shoe,1,268.09,AMEX,100112
+500953,4,Montreal Ste-Catherine,Quebec,2026-08-30,Footwear,Trailrunner Boot,2,316.43,DEBIT,100001
+500954,4,Montreal Ste-Catherine,Quebec,2026-08-30,Camping,Sleeping Bag -10C,1,297.19,GIFT_CARD,100068
+500955,4,Montreal Ste-Catherine,Quebec,2026-08-30,Accessories,Headlamp 300lm,3,271.78,GIFT_CARD,100116
+500956,4,Montreal Ste-Catherine,Quebec,2026-08-30,Accessories,Headlamp 300lm,1,201.2,DEBIT,100133
+500957,4,Montreal Ste-Catherine,Quebec,2026-08-30,Accessories,Hydration Pack,1,227.33,GIFT_CARD,100230
+500958,5,Quebec City Laurier,Quebec,2026-08-30,Apparel,Down Vest,1,126.28,DEBIT,100203
+500959,5,Quebec City Laurier,Quebec,2026-08-30,Camping,Sleeping Pad,1,77.48,DEBIT,0000000
+500960,5,Quebec City Laurier,Quebec,2026-08-30,Camping,Trekking Pole Pair,1,56.16,VISA,0000000
+500961,5,Quebec City Laurier,Quebec,2026-08-30,Camping,2-Person Tent,2,123.4,DEBIT,100176
+500962,5,Quebec City Laurier,Quebec,2026-08-30,Apparel,Down Vest,2,297.14,AMEX,100371
+500963,5,Quebec City Laurier,Quebec,2026-08-30,Camping,Camp Stove,1,27.24,DEBIT,100067
+500964,5,Quebec City Laurier,Quebec,2026-08-30,Accessories,Hydration Pack,1,178.12,VISA,100347
+500965,5,Quebec City Laurier,Quebec,2026-08-30,Accessories,Carabiner 4-Pack,1,31.38,AMEX,100200
+500966,6,Vancouver Robson,British Columbia,2026-08-30,Camping,Sleeping Pad,1,133.58,AMEX,100356
+500967,6,Vancouver Robson,British Columbia,2026-08-30,Camping,Sleeping Bag -10C,1,113.55,GIFT_CARD,100130
+500968,6,Vancouver Robson,British Columbia,2026-08-30,Accessories,Dry Bag 20L,1,234.68,GIFT_CARD,100089
+500969,6,Vancouver Robson,British Columbia,2026-08-30,Footwear,Trail Runner Low,1,78.73,VISA,100002
+500970,6,Vancouver Robson,British Columbia,2026-08-30,Accessories,Carabiner 4-Pack,1,127.12,VISA,100304
+500971,6,Vancouver Robson,British Columbia,2026-08-30,Apparel,Down Vest,1,62.55,MASTERCARD,100107
+500972,6,Vancouver Robson,British Columbia,2026-08-30,Apparel,Merino Base Layer,1,187.32,MASTERCARD,100332
+500973,6,Vancouver Robson,British Columbia,30/08/2026,Footwear,Alpine Hiking Shoe,1,279.24,DEBIT,100368
+500974,6,Vancouver Robson,British Columbia,2026-08-30,Apparel,Rain Shell,1,302.33,AMEX,100392
+500975,6,Vancouver Robson,British Columbia,2026-08-30,Accessories,Hydration Pack,1,119.37,DEBIT,100388
+500976,6,Vancouver Robson,British Columbia,2026-08-30,Footwear,Trailrunner Boot,1,211.65,GIFT_CARD,100283
+500977,6,Vancouver Robson,British Columbia,2026-08-30,Apparel,Merino Base Layer,1,34.93,DEBIT,100218
+500978,6,Vancouver Robson,British Columbia,2026-08-30,Accessories,Wool Socks 3-Pack,1,269.19,AMEX,100134
+500979,7,Victoria Douglas,British Columbia,2026-08-30,Apparel,Fleece Pullover,1,182.39,MASTERCARD,100165
+500980,7,Victoria Douglas,British Columbia,2026-08-30,Accessories,Hydration Pack,1,151.33,VISA,100313
+500981,7,Victoria Douglas,British Columbia,2026-08-30,Camping,Sleeping Pad,1,304.22,VISA,100104
+500982,7,Victoria Douglas,British Columbia,2026-08-30,Footwear,Alpine Hiking Shoe,1,84.55,VISA,100027
+500983,7,Victoria Douglas,British Columbia,2026-08-30,Apparel,Rain Shell,1,144.72,AMEX,100306
+500984,7,Victoria Douglas,British Columbia,2026-08-30,Camping,Sleeping Pad,1,131.55,MASTERCARD,100268
+500985,7,Victoria Douglas,British Columbia,2026-08-30,Accessories,Wool Socks 3-Pack,2,233.7,AMEX,100024
+500986,7,Victoria Douglas,British Columbia,2026-08-30,Camping,2-Person Tent,3,169.89,GIFT_CARD,0000000
+500987,7,Victoria Douglas,British Columbia,2026-08-30,Accessories,Wool Socks 3-Pack,1,115.9,MASTERCARD,100209
+500988,7,Victoria Douglas,British Columbia,2026-08-30,Footwear,Trail Runner Low,1,157.77,VISA,100356
+500989,7,Victoria Douglas,British Columbia,2026-08-30,Camping,2-Person Tent,1,183.06,MASTERCARD,100049
+500990,7,Victoria Douglas,British Columbia,2026-08-30,Accessories,Headlamp 300lm,2,86.04,GIFT_CARD,100376
+500991,7,Victoria Douglas,British Columbia,2026-08-30,Camping,Sleeping Bag -10C,1,251.88,AMEX,100215
+500992,7,Victoria Douglas,British Columbia,2026-08-30,Footwear,Insulated Winter Boot,1,98.89,MASTERCARD,0000000
+500993,7,Victoria Douglas,British Columbia,2026-08-30,Apparel,Fleece Pullover,1,167.17,MASTERCARD,100075
+500994,7,Victoria Douglas,British Columbia,2026-08-30,Footwear,Alpine Hiking Shoe,1,27.25,GIFT_CARD,100249
+500995,7,Victoria Douglas,British Columbia,30/08/2026,Accessories,Carabiner 4-Pack,1,303.24,MASTERCARD,100079
+500996,7,Victoria Douglas,British Columbia,2026-08-30,Footwear,Trail Runner Low,1,281.08,DEBIT,0000000
+500997,7,Victoria Douglas,British Columbia,2026-08-30,Apparel,Softshell Jacket,1,40.81,DEBIT,100389
+500998,7,Victoria Douglas,British Columbia,2026-08-30,Apparel,Down Vest,1,208.07,DEBIT,100284
+500999,8,Calgary Stephen Ave,Alberta,2026-08-30,Footwear,Trailrunner Boot,1,288.61,GIFT_CARD,100306
+501000,8,Calgary Stephen Ave,Alberta,2026-08-30,Camping,Camp Stove,1,21.99,GIFT_CARD,100112
+501001,8,Calgary Stephen Ave,Alberta,2026-08-30,Apparel,Fleece Pullover,2,212.92,GIFT_CARD,100169
+501002,8,Calgary Stephen Ave,Alberta,2026-08-30,Footwear,Trail Runner Low,1,226.97,MASTERCARD,100086
+501003,8,Calgary Stephen Ave,Alberta,2026-08-30,Camping,Camp Stove,1,221.12,MASTERCARD,100291
+501004,8,Calgary Stephen Ave,Alberta,2026-08-30,Camping,Trekking Pole Pair,3,35.18,MASTERCARD,100261
+501005,8,Calgary Stephen Ave,Alberta,2026-08-30,Accessories,Hydration Pack,1,178.54,DEBIT,100195
+501006,8,Calgary Stephen Ave,Alberta,30/08/2026,Accessories,Hydration Pack,1,117.1,VISA,100398
+501007,8,Calgary Stephen Ave,Alberta,2026-08-30,Footwear,Trailrunner Boot,1,78.21,AMEX,0000000
+501008,8,Calgary Stephen Ave,Alberta,2026-08-30,Footwear,Insulated Winter Boot,1,276.73,AMEX,100084
+501009,9,Edmonton Whyte Ave,Alberta,2026-08-30,Apparel,Merino Base Layer,2,300.6,AMEX,0000000
+501010,9,Edmonton Whyte Ave,Alberta,2026-08-30,Camping,Camp Stove,1,152.59,GIFT_CARD,100220
+501011,9,Edmonton Whyte Ave,Alberta,2026-08-30,Footwear,Trailrunner Boot,1,153.69,GIFT_CARD,100325
+501012,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Hydration Pack,1,66.55,MASTERCARD,100073
+501013,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Hydration Pack,1,171.78,MASTERCARD,100346
+501014,9,Edmonton Whyte Ave,Alberta,2026-08-30,Footwear,Alpine Hiking Shoe,1,299.32,GIFT_CARD,100282
+501015,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Hydration Pack,1,125.92,GIFT_CARD,100127
+501016,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Carabiner 4-Pack,1,288.91,AMEX,0000000
+501017,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Hydration Pack,1,20.38,MASTERCARD,100090
+501018,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Hydration Pack,1,235.44,VISA,0000000
+501019,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Wool Socks 3-Pack,1,48.32,AMEX,100065
+501020,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Carabiner 4-Pack,2,316.68,DEBIT,100202
+501021,9,Edmonton Whyte Ave,Alberta,2026-08-30,Apparel,Down Vest,1,122.98,MASTERCARD,0000000
+501022,9,Edmonton Whyte Ave,Alberta,2026-08-30,Camping,Trekking Pole Pair,2,98.24,MASTERCARD,100060
+501023,9,Edmonton Whyte Ave,Alberta,2026-08-30,Camping,Sleeping Bag -10C,1,191.21,MASTERCARD,100029
+501024,9,Edmonton Whyte Ave,Alberta,2026-08-30,Apparel,Rain Shell,1,199.69,DEBIT,100047
+501025,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Dry Bag 20L,1,216.26,AMEX,100081
+501026,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Wool Socks 3-Pack,1,211.56,DEBIT,0000000
+501027,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Hydration Pack,1,40.51,AMEX,100394
+501028,9,Edmonton Whyte Ave,Alberta,2026-08-30,Accessories,Headlamp 300lm,1,133.79,AMEX,100002
+501029,9,Edmonton Whyte Ave,Alberta,2026-08-30,Footwear,Trailrunner Boot,2,51.43,AMEX,100198
+501030,10,Halifax Spring Garden,Atlantic,2026-08-30,Camping,2-Person Tent,1,48.39,AMEX,100147
+501031,10,Halifax Spring Garden,Atlantic,2026-08-30,Accessories,Hydration Pack,1,299.1,GIFT_CARD,100261
+501032,10,Halifax Spring Garden,Atlantic,2026-08-30,Accessories,Dry Bag 20L,1,286.35,GIFT_CARD,100017
+501033,10,Halifax Spring Garden,Atlantic,2026-08-30,Accessories,Hydration Pack,3,42.11,DEBIT,100391
+501034,10,Halifax Spring Garden,Atlantic,2026-08-30,Accessories,Hydration Pack,1,191.3,GIFT_CARD,100001
+501035,10,Halifax Spring Garden,Atlantic,2026-08-30,Camping,Trekking Pole Pair,1,116.08,VISA,100303
+501036,10,Halifax Spring Garden,Atlantic,2026-08-30,Footwear,Trail Runner Low,1,195.97,AMEX,100311
+501037,10,Halifax Spring Garden,Atlantic,2026-08-30,Footwear,Trail Runner Low,1,108.47,VISA,100288
+501038,10,Halifax Spring Garden,Atlantic,2026-08-30,Camping,2-Person Tent,1,297.66,DEBIT,100044
+501039,10,Halifax Spring Garden,Atlantic,2026-08-30,Apparel,Softshell Jacket,2,157.96,DEBIT,100345
+501040,10,Halifax Spring Garden,Atlantic,2026-08-30,Accessories,Headlamp 300lm,1,185.98,AMEX,0000000
+501041,10,Halifax Spring Garden,Atlantic,2026-08-30,Apparel,Softshell Jacket,1,184.44,DEBIT,0000000
+501042,10,Halifax Spring Garden,Atlantic,2026-08-30,Apparel,Down Vest,2,290.85,MASTERCARD,100236
+501043,10,Halifax Spring Garden,Atlantic,2026-08-30,Accessories,Carabiner 4-Pack,1,259.15,DEBIT,100233
+501044,10,Halifax Spring Garden,Atlantic,2026-08-30,Apparel,Merino Base Layer,1,183.78,DEBIT,100327
+501045,10,Halifax Spring Garden,Atlantic,2026-08-30,Accessories,Headlamp 300lm,2,139.09,AMEX,100351
+501046,10,Halifax Spring Garden,Atlantic,2026-08-30,Footwear,Trailrunner Boot,3,278.2,VISA,100313
+501047,10,Halifax Spring Garden,Atlantic,2026-08-30,Footwear,Trailrunner Boot,1,289.63,MASTERCARD,100215
