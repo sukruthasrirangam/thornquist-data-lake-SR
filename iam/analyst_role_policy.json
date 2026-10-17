@@ -1,0 +1,49 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "RunQueriesInAnalystWorkgroupOnly",
+      "Effect": "Allow",
+      "Action": [
+        "athena:StartQueryExecution", "athena:GetQueryExecution",
+        "athena:GetQueryResults", "athena:StopQueryExecution",
+        "athena:GetWorkGroup"
+      ],
+      "Resource": "arn:aws:athena:us-east-1:ACCOUNT_ID:workgroup/analyst-wg"
+    },
+    {
+      "Sid": "ReadCuratedCatalogOnly",
+      "Effect": "Allow",
+      "Action": [
+        "glue:GetDatabase", "glue:GetDatabases",
+        "glue:GetTable", "glue:GetTables", "glue:GetPartitions"
+      ],
+      "Resource": [
+        "arn:aws:glue:us-east-1:ACCOUNT_ID:catalog",
+        "arn:aws:glue:us-east-1:ACCOUNT_ID:database/thornquist_curated",
+        "arn:aws:glue:us-east-1:ACCOUNT_ID:table/thornquist_curated/*"
+      ]
+    },
+    {
+      "Sid": "LakeFormationVendsCuratedData",
+      "Effect": "Allow",
+      "Action": "lakeformation:GetDataAccess",
+      "Resource": "*"
+    },
+    {
+      "Sid": "ReadCuratedObjects",
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::BUCKET_NAME/curated/*"
+    },
+    {
+      "Sid": "OwnQueryResultsOnly",
+      "Effect": "Allow",
+      "Action": ["s3:GetObject", "s3:PutObject", "s3:GetBucketLocation"],
+      "Resource": [
+        "arn:aws:s3:::BUCKET_NAME",
+        "arn:aws:s3:::BUCKET_NAME/athena-results/analyst/*"
+      ]
+    }
+  ]
+}
