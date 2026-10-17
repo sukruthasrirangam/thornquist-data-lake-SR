@@ -28,4 +28,4 @@ We handled this in two layers:
 - **Explicit Deny** on `landing/` for the ETL role, so originals can never be modified after delivery.
 - **Analyst never sees raw, staging or quarantine.** These zones contain unvalidated data and customer emails.
 
-Replace `BUCKET_NAME` and `ACCOUNT_ID` with your values before deploying.
+Deployed in account `764541939057`, bucket `thornquist-lake-764541939057` (us-east-1).

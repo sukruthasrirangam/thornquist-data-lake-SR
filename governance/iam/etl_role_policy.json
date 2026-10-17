@@ -5,7 +5,7 @@
       "Sid": "ListPipelinePrefixes",
       "Effect": "Allow",
       "Action": "s3:ListBucket",
-      "Resource": "arn:aws:s3:::BUCKET_NAME",
+      "Resource": "arn:aws:s3:::thornquist-lake-764541939057",
       "Condition": {
         "StringLike": {
           "s3:prefix": ["raw/*", "staging/*", "trusted/*", "quarantine/*", "curated/*", "scripts/*"]
@@ -17,10 +17,10 @@
       "Effect": "Allow",
       "Action": "s3:GetObject",
       "Resource": [
-        "arn:aws:s3:::BUCKET_NAME/raw/*",
-        "arn:aws:s3:::BUCKET_NAME/staging/*",
-        "arn:aws:s3:::BUCKET_NAME/trusted/*",
-        "arn:aws:s3:::BUCKET_NAME/scripts/*"
+        "arn:aws:s3:::thornquist-lake-764541939057/raw/*",
+        "arn:aws:s3:::thornquist-lake-764541939057/staging/*",
+        "arn:aws:s3:::thornquist-lake-764541939057/trusted/*",
+        "arn:aws:s3:::thornquist-lake-764541939057/scripts/*"
       ]
     },
     {
@@ -28,10 +28,10 @@
       "Effect": "Allow",
       "Action": ["s3:PutObject", "s3:DeleteObject"],
       "Resource": [
-        "arn:aws:s3:::BUCKET_NAME/staging/*",
-        "arn:aws:s3:::BUCKET_NAME/trusted/*",
-        "arn:aws:s3:::BUCKET_NAME/quarantine/*",
-        "arn:aws:s3:::BUCKET_NAME/curated/*"
+        "arn:aws:s3:::thornquist-lake-764541939057/staging/*",
+        "arn:aws:s3:::thornquist-lake-764541939057/trusted/*",
+        "arn:aws:s3:::thornquist-lake-764541939057/quarantine/*",
+        "arn:aws:s3:::thornquist-lake-764541939057/curated/*"
       ]
     },
     {
@@ -43,22 +43,22 @@
         "glue:GetPartitions", "glue:BatchCreatePartition"
       ],
       "Resource": [
-        "arn:aws:glue:us-east-1:ACCOUNT_ID:catalog",
-        "arn:aws:glue:us-east-1:ACCOUNT_ID:database/thornquist_*",
-        "arn:aws:glue:us-east-1:ACCOUNT_ID:table/thornquist_*/*"
+        "arn:aws:glue:us-east-1:764541939057:catalog",
+        "arn:aws:glue:us-east-1:764541939057:database/thornquist_*",
+        "arn:aws:glue:us-east-1:764541939057:table/thornquist_*/*"
       ]
     },
     {
       "Sid": "WriteGlueLogs",
       "Effect": "Allow",
       "Action": ["logs:CreateLogGroup", "logs:CreateLogStream", "logs:PutLogEvents"],
-      "Resource": "arn:aws:logs:us-east-1:ACCOUNT_ID:log-group:/aws-glue/*"
+      "Resource": "arn:aws:logs:us-east-1:764541939057:log-group:/aws-glue/*"
     },
     {
       "Sid": "NeverTouchLanding",
       "Effect": "Deny",
       "Action": "s3:*",
-      "Resource": "arn:aws:s3:::BUCKET_NAME/landing/*"
+      "Resource": "arn:aws:s3:::thornquist-lake-764541939057/landing/*"
     }
   ]
 }

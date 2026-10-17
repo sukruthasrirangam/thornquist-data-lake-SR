@@ -7,16 +7,16 @@
       "Principal": "*",
       "Action": ["s3:GetObject", "s3:PutObject", "s3:DeleteObject"],
       "Resource": [
-        "arn:aws:s3:::BUCKET_NAME/landing/*",
-        "arn:aws:s3:::BUCKET_NAME/raw/*",
-        "arn:aws:s3:::BUCKET_NAME/staging/*",
-        "arn:aws:s3:::BUCKET_NAME/quarantine/*"
+        "arn:aws:s3:::thornquist-lake-764541939057/landing/*",
+        "arn:aws:s3:::thornquist-lake-764541939057/raw/*",
+        "arn:aws:s3:::thornquist-lake-764541939057/staging/*",
+        "arn:aws:s3:::thornquist-lake-764541939057/quarantine/*"
       ],
       "Condition": {
         "ArnNotLike": {
           "aws:PrincipalArn": [
-            "arn:aws:iam::ACCOUNT_ID:role/LabRole",
-            "arn:aws:iam::ACCOUNT_ID:role/voclabs"
+            "arn:aws:iam::764541939057:role/LabRole",
+            "arn:aws:iam::764541939057:role/voclabs"
           ]
         }
       }
@@ -27,8 +27,8 @@
       "Principal": "*",
       "Action": "s3:*",
       "Resource": [
-        "arn:aws:s3:::BUCKET_NAME",
-        "arn:aws:s3:::BUCKET_NAME/*"
+        "arn:aws:s3:::thornquist-lake-764541939057",
+        "arn:aws:s3:::thornquist-lake-764541939057/*"
       ],
       "Condition": {
         "Bool": { "aws:SecureTransport": "false" }

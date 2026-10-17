@@ -9,7 +9,7 @@
         "athena:GetQueryResults", "athena:StopQueryExecution",
         "athena:GetWorkGroup"
       ],
-      "Resource": "arn:aws:athena:us-east-1:ACCOUNT_ID:workgroup/analyst-wg"
+      "Resource": "arn:aws:athena:us-east-1:764541939057:workgroup/analyst-wg"
     },
     {
       "Sid": "ReadCuratedCatalogOnly",
@@ -19,9 +19,9 @@
         "glue:GetTable", "glue:GetTables", "glue:GetPartitions"
       ],
       "Resource": [
-        "arn:aws:glue:us-east-1:ACCOUNT_ID:catalog",
-        "arn:aws:glue:us-east-1:ACCOUNT_ID:database/thornquist_curated",
-        "arn:aws:glue:us-east-1:ACCOUNT_ID:table/thornquist_curated/*"
+        "arn:aws:glue:us-east-1:764541939057:catalog",
+        "arn:aws:glue:us-east-1:764541939057:database/thornquist_curated",
+        "arn:aws:glue:us-east-1:764541939057:table/thornquist_curated/*"
       ]
     },
     {
@@ -34,15 +34,15 @@
       "Sid": "ReadCuratedObjects",
       "Effect": "Allow",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::BUCKET_NAME/curated/*"
+      "Resource": "arn:aws:s3:::thornquist-lake-764541939057/curated/*"
     },
     {
       "Sid": "OwnQueryResultsOnly",
       "Effect": "Allow",
       "Action": ["s3:GetObject", "s3:PutObject", "s3:GetBucketLocation"],
       "Resource": [
-        "arn:aws:s3:::BUCKET_NAME",
-        "arn:aws:s3:::BUCKET_NAME/athena-results/analyst/*"
+        "arn:aws:s3:::thornquist-lake-764541939057",
+        "arn:aws:s3:::thornquist-lake-764541939057/athena-results/analyst/*"
       ]
     }
   ]

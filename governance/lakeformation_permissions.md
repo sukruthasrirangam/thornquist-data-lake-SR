@@ -5,12 +5,12 @@ Learner Lab cannot create IAM roles, so the analyst and regional manager are **h
 
 | Principal | ARN (production design) |
 |---|---|
-| Analyst | `arn:aws:iam::ACCOUNT_ID:role/ThornquistAnalyst` |
-| Regional manager (Ontario) | `arn:aws:iam::ACCOUNT_ID:role/ThornquistOntarioManager` |
-| Pipeline (ETL) | `arn:aws:iam::ACCOUNT_ID:role/LabRole` |
+| Analyst | `arn:aws:iam::764541939057:role/ThornquistAnalyst` |
+| Regional manager (Ontario) | `arn:aws:iam::764541939057:role/ThornquistOntarioManager` |
+| Pipeline (ETL) | `arn:aws:iam::764541939057:role/LabRole` |
 
 ## Registered data location
-`s3://BUCKET_NAME/curated/` is registered with Lake Formation, so access to curated data is decided by Lake Formation grants rather than S3 permissions alone.
+`s3://thornquist-lake-764541939057/curated/` is registered with Lake Formation, so access to curated data is decided by Lake Formation grants rather than S3 permissions alone.
 
 ## Grants
 | # | Principal | Resource | Permissions | Purpose |
@@ -23,7 +23,7 @@ Learner Lab cannot create IAM roles, so the analyst and regional manager are **h
 
 ## Console steps
 1. Lake Formation → if prompted, **Add myself** as administrator.
-2. **Data lake locations → Register location** → `s3://BUCKET_NAME/curated/` → role: LabRole.
+2. **Data lake locations → Register location** → `s3://thornquist-lake-764541939057/curated/` → role: LabRole.
 3. **Data lake permissions → Grant** → principal → database `thornquist_curated` → tables: All tables → SELECT, DESCRIBE.
 4. **Data filters → Create** → table `sales_fact` → name `ontario_only` → row filter `sales_region = 'Ontario'`, all columns → then grant SELECT on the filter.
 
