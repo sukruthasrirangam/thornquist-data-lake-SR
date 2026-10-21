@@ -1,0 +1,9 @@
+transaction_id,store_id,store_name,region,sale_date,category,product_name,quantity,unit_price,payment_method,cust_num
+500001,1,Toronto Yonge St,Ontario,2026-08-24,Camping,Trekking Pole Pair,1,114.09,MASTERCARD,100101
+590001,1,Toronto Yonge St,Ontario,2026-08-30,Camping,2-Person Tent,-2,189.99,VISA,100101
+590002,1,Toronto Yonge St,Ontario,2026-08-30,Footwear,Alpine Hiking Shoe,1,99999.00,VISA,100101
+590003,1,Toronto Yonge St,Ontario,31/31/2026,Apparel,Rain Shell,1,215.23,DEBIT,100101
+590004,1,Toronto Yonge St,Ontario,2026-08-30,Accessories,Headlamp 300lm,1,48.50,VISA,777777
+590005,1,Toronto Yonge St,Ontario,2026-08-30,Fishing,Fly Rod,1,129.00,VISA,100101
+590006,1,Toronto Yonge St,Ontario,2026-08-30,Apparel,Down Vest,1,,VISA,100101
+590007,1,Toronto Yonge St,Nunavut,2026-08-30,Camping,Camp Stove,1,92.62,VISA,100101
