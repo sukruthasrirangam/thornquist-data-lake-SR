@@ -19,7 +19,7 @@ We handled this in two layers:
 | `iam/etl_role_policy.json` | Glue ETL and DQ jobs: read `raw/`, `staging/`, `trusted/`; write `staging/`, `trusted/`, `quarantine/`, `curated/`; explicit deny on `landing/` |
 | `iam/analyst_role_policy.json` | Analyst: Athena in `analyst-wg` only, read `curated/` only |
 | `bucket_policy.json` | Blocks everyone except the pipeline (LabRole) and lab admins (voclabs) from internal zones; requires HTTPS |
-| `lakeformation_permissions.md` | Table-level and row-level grants on the curated database |
+| `lakeformation_permissions.md` | Table-level grants on the curated database |
 | `raci.md` | Who can read and write each zone, and who owns each activity |
 
 ## Design choices
