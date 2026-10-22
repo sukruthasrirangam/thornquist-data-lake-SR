@@ -36,13 +36,3 @@ LOCATION 's3://thornquist-lake-764541939057/benchmark/sales_parquet_flat/';
 SELECT region, ROUND(SUM(line_amount), 2) AS revenue FROM thornquist_benchmark.sales_csv          WHERE channel = 'online' GROUP BY region;
 SELECT region, ROUND(SUM(line_amount), 2) AS revenue FROM thornquist_benchmark.sales_parquet_flat WHERE channel = 'online' GROUP BY region;
 SELECT region, ROUND(SUM(line_amount), 2) AS revenue FROM thornquist_curated.sales_fact           WHERE channel = 'online' GROUP BY region;
-
--- Test 2: total revenue  (Parquet reads one column; CSV must read every column)
-SELECT ROUND(SUM(line_amount), 2) AS revenue FROM thornquist_benchmark.sales_csv;
-SELECT ROUND(SUM(line_amount), 2) AS revenue FROM thornquist_benchmark.sales_parquet_flat;
-SELECT ROUND(SUM(line_amount), 2) AS revenue FROM thornquist_curated.sales_fact;
-
--- Test 3: full row scan  (worst case for every format)
-SELECT COUNT(*), COUNT(DISTINCT product_name) FROM thornquist_benchmark.sales_csv;
-SELECT COUNT(*), COUNT(DISTINCT product_name) FROM thornquist_benchmark.sales_parquet_flat;
-SELECT COUNT(*), COUNT(DISTINCT product_name) FROM thornquist_curated.sales_fact;
