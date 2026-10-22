@@ -8,12 +8,6 @@ from the **Query stats** tab.
 | 1. Online revenue by region | `thornquist_benchmark.sales_csv` | | |
 | | `thornquist_benchmark.sales_parquet_flat` | | |
 | | `thornquist_curated.sales_fact` (partitioned) | | |
-| 2. Total revenue | `sales_csv` | | |
-| | `sales_parquet_flat` | | |
-| | `sales_fact` | | |
-| 3. Full scan | `sales_csv` | | |
-| | `sales_parquet_flat` | | |
-| | `sales_fact` | | |
 
 **Result:** Parquet + partitioning scanned __% less data than CSV for Test 1.
 See `docs/curated_and_cost.md` for what this means at production scale.
