@@ -1,7 +1,7 @@
 # Lake Formation Permission Set
 
 ## Principals
-Learner Lab cannot create IAM roles, so the analyst and regional manager are **hypothetical principals**. When testing in the lab, LabRole stands in for the analyst.
+Learner Lab cannot create IAM roles, so the analyst is a **hypothetical principal**. When testing in the lab, LabRole stands in for the analyst.
 
 | Principal | ARN (production design) |
 |---|---|
@@ -16,7 +16,7 @@ Learner Lab cannot create IAM roles, so the analyst and regional manager are **h
 |---|---|---|---|---|
 | 1 | Analyst | Database `thornquist_curated` | DESCRIBE | See the database |
 | 2 | Analyst | All tables in `thornquist_curated` | SELECT, DESCRIBE | Query curated data |
-| 3 | Analyst | `thornquist_raw`, `thornquist_trusted` | none | No access to unvalidated data |
+| 3 | Analyst | 'thornquist_raw', 'thornquist_staging', 'thornquist_trusted', 'thornquist_quality' | none | No access to unvalidated data |
 | 4 | Pipeline (LabRole) | `thornquist_curated` | ALL, data location access | Write curated tables |
 
 ## Console steps
