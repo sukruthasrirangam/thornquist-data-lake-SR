@@ -5,6 +5,10 @@ CCGC 5506 Mid-Term Project 1 · Team: Ruchi, Sukrutha
 A four-zone S3 data lake (landing → raw → staging → trusted → curated) built with
 AWS Glue, Lambda, Athena and Lake Formation in AWS Academy Learner Lab.
 
+## Architecture
+
+![Thornquist data lake architecture](docs/thornquist_architecture.png)
+
 ## Repository layout
 
 | Folder | Contents |
