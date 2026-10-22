@@ -23,7 +23,7 @@
 - 21.6% of BC store revenue is from walk-ins with no loyalty ID: a sign-up campaign target.
 
 ## 4. Governance (45 s)
-- Learner Lab blocks role creation, so: 3 least-privilege IAM policies as design artifacts; **enforced** controls = bucket policy, Athena workgroup with 1 GB/query limit, Ontario-only view (row-level access bonus).
+- Learner Lab blocks role creation, so: 3 least-privilege IAM policies as design artifacts; **enforced** controls = bucket policy, Athena workgroup with 1 GB/query limit.
 - Analyst sees curated only; never raw, staging or quarantine.
 
 ## Likely questions
