@@ -9,7 +9,7 @@ R = read, W = write, — = no access
 | ETL (raw-to-staging, dq-gate, trusted-to-curated) | — | R | R/W | R/W | W | W |
 | Data engineer (investigates failures) | R | R | R | R | R | R |
 | Analyst | — | — | — | — | — | R |
-| Regional manager | — | — | — | — | — | R (own region rows only) |
+| Regional manager | — | — | — | — | — | R |
 
 ## RACI for activities
 R = Responsible (does it), A = Accountable (owns the outcome), C = Consulted, I = Informed
