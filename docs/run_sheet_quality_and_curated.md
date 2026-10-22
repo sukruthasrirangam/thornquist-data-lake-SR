@@ -99,12 +99,8 @@ Expected headline from Q1: online average order **$469.06** vs in-store **$204.7
 2. Run each test query on all three tables. For each, open **Query stats** and note *Data scanned* and *Run time*.
 3. Fill the table in `docs/benchmark.md`. 📸 The Query stats of Test 1 on CSV vs on `sales_fact`.
 
-## 8. Bonus 2: Ontario-only access
 
-Run `sql/40_ontario_row_filter.sql` (view + the two demo queries). 📸 Both results: 5 regions vs 1.
-Optional, **after all recordings are done**: the Lake Formation data filter in `governance/lakeformation_permissions.md`.
-
-## 9. Bucket policy (governance, enforced)
+## 8. Bucket policy (governance, enforced)
 
 ```bash
 aws s3api put-bucket-policy --bucket $BUCKET --policy file://governance/bucket_policy.json
