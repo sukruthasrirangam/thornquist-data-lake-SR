@@ -71,7 +71,7 @@ The raw POS table is defined by hand (`sql/01_create_raw_pos_sales.sql`) because
 | Curated model, partitioning, cost per run | [`docs/curated_and_cost.md`](docs/curated_and_cost.md) |
 | CSV vs Parquet benchmark (bonus) | [`docs/benchmark.md`](docs/benchmark.md) |
 | Business queries (Q1–Q6) and quality queries (QA1–QA4) | [`sql/`](sql/) |
-| Dashboard (Jupyter notebook on Athena; QuickSight not used for cost) | [`notebook/dashboard.ipynb`](notebook/dashboard.ipynb), charts in [`notebook/charts/`](notebook/charts/) |
+| Dashboard: revenue by channel, region and category, loyalty segment insight, data health (Jupyter notebook on Athena; QuickSight not used for cost) | [`notebook/dashboard.ipynb`](notebook/dashboard.ipynb), charts in [`notebook/charts/`](notebook/charts/) |
 | IAM policies, bucket policy, Lake Formation grants, RACI | [`governance/`](governance/) |
 | Screenshots of every stage (43 figures) | [`evidence/Thornquist_Evidence_Screenshots.pdf`](evidence/Thornquist_Evidence_Screenshots.pdf) |
 | Demo recording of every stage (6 min, played at 1.25×) | [`evidence/Thornquist_demo_combined.mp4`](evidence/Thornquist_demo_combined.mp4) |
@@ -82,7 +82,12 @@ if a rule stops working, which triggers the same alert.
 
 ## Setup: rebuild from a fresh Learner Lab session
 
-Learner Lab blocks IAM role creation, so every service runs as **LabRole**. Run in **CloudShell** (us-east-1)
+Learner Lab blocks IAM role creation, so every service runs as **LabRole**.
+
+**One command (infrastructure as code):** [`infra/setup_pipeline.sh`](infra/setup_pipeline.sh) creates every resource below
+and runs the pipeline end to end: `bash infra/setup_pipeline.sh you@example.com` (the email receives failure alerts).
+
+The same steps, one at a time: run in **CloudShell** (us-east-1)
 unless a step says console. These are the commands used to build the lab on Oct 17–22, 2026.
 
 ```bash
@@ -128,7 +133,7 @@ aws glue create-trigger --name customer-ingest-weekly --type SCHEDULED \
 **5. Raw catalog**
 ```bash
 aws glue create-database --database-input Name=thornquist_raw
-aws glue create-crawler --name raw-crawler --role $ROLE --database-name thornquist_raw \
+aws glue create-crawler --name raw-crawler --role $ROLE --database-name thornquist_raw --schedule "cron(0 7 * * ? *)" \
   --targets "{\"S3Targets\":[{\"Path\":\"s3://$BUCKET/raw/ecommerce/\"},{\"Path\":\"s3://$BUCKET/raw/customers/\"}]}"
 aws glue start-crawler --name raw-crawler
 ```
@@ -142,7 +147,7 @@ aws glue create-job --name raw-to-staging --role $ROLE \
   --glue-version 4.0 --worker-type G.1X --number-of-workers 2 --timeout 10
 aws glue start-job-run --job-name raw-to-staging
 aws glue create-database --database-input Name=thornquist_staging
-aws glue create-crawler --name staging-crawler --role $ROLE --database-name thornquist_staging \
+aws glue create-crawler --name staging-crawler --role $ROLE --database-name thornquist_staging --schedule "cron(30 7 * * ? *)" \
   --targets "{\"S3Targets\":[{\"Path\":\"s3://$BUCKET/staging/sales_lines/\"},{\"Path\":\"s3://$BUCKET/staging/customers/\"}]}"
 aws glue start-crawler --name staging-crawler
 ```
@@ -173,6 +178,7 @@ workgroup, the benchmark tables and the bucket policy).
 | `data/` | Instructor sample data; `data/demo/` holds the bad batch used in the quality-gate demo |
 | `docs/` | Architecture diagram (PNG + draw.io source), data quality, curated layer and cost, benchmark, setup part 2 |
 | `ingestion/` | POS upload script, e-commerce Lambda |
+| `infra/` | `setup_pipeline.sh`: builds and runs the whole pipeline from a fresh Learner Lab session |
 | `glue/` | `customer_ingest.py`, `raw_to_staging.py`, `dq_gate.py`, `trusted_to_curated.py` |
 | `sql/` | Manual raw table, business queries, quality queries, benchmark |
 | `governance/` | IAM policies, bucket policy, Lake Formation grants, RACI |
