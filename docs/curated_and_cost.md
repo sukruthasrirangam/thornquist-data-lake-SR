@@ -35,13 +35,13 @@ Also notable: **Atlantic is the only region where online revenue ($22.0k) exceed
 
 ## Benchmark (bonus): CSV vs Parquet (`sql/30_benchmark.sql`)
 
-Same 1,601 rows in three layouts. Fill in from Athena → Query stats.
+Same 1,601 rows in three layouts; query: online revenue by region. Full write-up in `docs/benchmark.md`.
 
-| Query | CSV scanned | Parquet flat scanned | Parquet partitioned scanned | Saving vs CSV |
-|---|---|---|---|---|
-| Test 1: online revenue by region | | | | |
-| Test 2: total revenue | | | | |
-| Test 3: full scan | | | | |
+| Table | Data scanned | Run time | Less than CSV |
+|---|---|---|---|
+| CSV | 224.43 KB | 936 ms | – |
+| Parquet, flat | 0.12 KB | 539 ms | 99.9% |
+| Parquet, partitioned (`sales_fact`) | 3.03 KB | 581 ms | 98.6% |
 
 File sizes: CSV **≈ 240 KB**, Parquet **≈ 56 KB** (about 77% smaller before any query runs).
 
