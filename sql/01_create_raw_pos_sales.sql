@@ -1,3 +1,5 @@
+-- Manual raw POS table  |  database: thornquist_raw  (owner: Ruchi)
+-- Defined by hand because a crawler would read cust_num as a number and turn the walk-in marker 0000000 into 0.
 CREATE EXTERNAL TABLE thornquist_raw.pos_sales (
   transaction_id BIGINT, store_id INT, store_name STRING, region STRING,
   sale_date STRING, category STRING, product_name STRING, quantity INT,
