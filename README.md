@@ -66,6 +66,7 @@ The raw POS table is defined by hand (`sql/01_create_raw_pos_sales.sql`) because
 | Dashboard (Jupyter notebook on Athena; QuickSight not used for cost) | [`notebook/dashboard.ipynb`](notebook/dashboard.ipynb), charts in [`notebook/charts/`](notebook/charts/) |
 | IAM policies, bucket policy, Lake Formation grants, RACI | [`governance/`](governance/) |
 | Screenshots of every stage (43 figures) | [`evidence/Thornquist_Evidence_Screenshots.pdf`](evidence/Thornquist_Evidence_Screenshots.pdf) |
+| Demo recording of every stage (6 min, played at 1.25×) | [`evidence/Thornquist_demo_combined.mp4`](evidence/Thornquist_demo_combined.mp4) |
 
 **Monitoring:** EventBridge rule `glue-job-failure` (any Glue job FAILED / TIMEOUT / STOPPED) sends an
 email through SNS topic `thornquist-pipeline-alerts`. The quality gate's self-test fails the job on purpose
@@ -151,7 +152,7 @@ aws events put-targets --rule glue-job-failure --targets "Id"="sns-alert","Arn"=
 ```
 
 **8. Quality gate, curated layer, queries, benchmark, governance**
-Follow [`docs/run_sheet_quality_and_curated.md`](docs/run_sheet_quality_and_curated.md) steps 1–8
+Follow [`docs/run_sheet_quality_and_curated.md`](docs/run_sheet_quality_and_curated.md) (setup part 2) steps 1–8
 (creates `dq-gate` and `trusted-to-curated`, the trusted / quality / curated crawlers, the `analyst-wg`
 workgroup, the benchmark tables and the bucket policy).
 
@@ -162,10 +163,10 @@ workgroup, the benchmark tables and the bucket policy).
 | Folder | Contents |
 |---|---|
 | `data/` | Instructor sample data; `data/demo/` holds the bad batch used in the quality-gate demo |
-| `docs/` | Architecture diagram, data quality, curated layer and cost, benchmark, run sheet |
+| `docs/` | Architecture diagram (PNG + draw.io source), data quality, curated layer and cost, benchmark, setup part 2 |
 | `ingestion/` | POS upload script, e-commerce Lambda |
 | `glue/` | `customer_ingest.py`, `raw_to_staging.py`, `dq_gate.py`, `trusted_to_curated.py` |
 | `sql/` | Manual raw table, business queries, quality queries, benchmark |
 | `governance/` | IAM policies, bucket policy, Lake Formation grants, RACI |
 | `notebook/` | Dashboard notebook and chart images |
-| `evidence/` | Screenshots of every stage (PDF) |
+| `evidence/` | Screenshots of every stage (PDF) and the demo recording (MP4) |
