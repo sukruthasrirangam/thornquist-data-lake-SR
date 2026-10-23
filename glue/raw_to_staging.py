@@ -1,5 +1,5 @@
 """
-raw-to-staging  |  Thornquist Outfitters data lake
+raw-to-staging  |  Thornquist Outfitters data lake  (owner: Ruchi)
 Conforms the three raw sources into one sales model + a clean customer table.
 
 Schema conflicts resolved here (format fixes only):

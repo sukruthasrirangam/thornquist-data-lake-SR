@@ -1,3 +1,8 @@
+"""
+customer-ingest  |  Thornquist Outfitters data lake  (owner: Ruchi)
+Glue Python shell job, scheduled every Monday 06:00 UTC: copies the weekly customer extract
+from landing/customers/ to raw/customers/ingest_date=YYYY-MM-DD/, unchanged.
+"""
 import boto3
 from datetime import datetime, timezone
 
