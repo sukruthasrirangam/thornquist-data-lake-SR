@@ -1,3 +1,8 @@
+"""
+ecom-ingest  |  Thornquist Outfitters data lake  (owner: Ruchi)
+Lambda triggered by S3 uploads to landing/ecommerce/*.json: converts the JSON array of orders
+to JSON Lines (one order per line), adds _source_file and _ingest_ts, writes to raw/ecommerce/.
+"""
 import json
 import boto3
 from datetime import datetime, timezone

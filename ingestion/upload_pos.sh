@@ -1,5 +1,5 @@
 #!/bin/bash
-# POS ingestion: upload daily CSVs to landing, then copy to raw with an ingest_date partition
+# POS ingestion: upload daily CSVs to landing, then copy to raw with an ingest_date partition  (owner: Ruchi)
 BUCKET=thornquist-lake-764541939057
 INGEST_DATE=$(date -u +%Y-%m-%d)
 DATA_DIR=~/thornquist-data-lake-SR/data
