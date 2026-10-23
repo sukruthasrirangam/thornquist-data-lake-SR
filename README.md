@@ -162,7 +162,7 @@ workgroup, the benchmark tables and the bucket policy).
 | Folder | Contents |
 |---|---|
 | `data/` | Instructor sample data; `data/demo/` holds the bad batch used in the quality-gate demo |
-| `docs/` | Architecture diagram, data quality, curated layer and cost, benchmark, run sheet, presentation notes |
+| `docs/` | Architecture diagram, data quality, curated layer and cost, benchmark, run sheet |
 | `ingestion/` | POS upload script, e-commerce Lambda |
 | `glue/` | `customer_ingest.py`, `raw_to_staging.py`, `dq_gate.py`, `trusted_to_curated.py` |
 | `sql/` | Manual raw table, business queries, quality queries, benchmark |
