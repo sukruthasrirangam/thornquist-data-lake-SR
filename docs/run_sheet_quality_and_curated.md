@@ -1,7 +1,7 @@
-# Run sheet: quality gate, curated layer, queries, governance (Sukrutha's part)
+# Setup part 2: quality gate, curated layer, queries, governance
 
-Run in **Ruchi's lab (account 764541939057)**, in **CloudShell**, from the repo folder.
-Each step lists the **📸 screenshot** to take for `evidence/`. Allow about 45 minutes.
+Continues the README setup (steps 1–7). Run in **CloudShell** in the project account (764541939057), from the repo folder.
+About 45 minutes. Screenshots of every step are in `evidence/Thornquist_Evidence_Screenshots.pdf`.
 
 ```bash
 cd ~/thornquist-data-lake-SR && git pull
@@ -44,7 +44,6 @@ ecommerce  duplicate_record  rows=15  revenue=$2,943.95
 pos        duplicate_record  rows=3   revenue=$720.27
 ----- rule self-test -----   10 x PASS
 ```
-📸 Job run **Succeeded** + the output log with the summary and the 10 PASS lines.
 
 ## 3. Run the curated job
 
@@ -54,7 +53,6 @@ aws glue get-job-run --job-name trusted-to-curated --run-id $RUN --query JobRun.
 aws s3 ls s3://$BUCKET/curated/ --recursive
 ```
 Expected: `curated/sales_fact/year=2026/month=8/channel=in-store/` and `.../channel=online/`, plus `curated/customer_dim/`.
-📸 The S3 listing showing the partition folders.
 
 ## 4. Catalog the new zones (3 crawlers)
 
@@ -75,7 +73,6 @@ for C in trusted-crawler quality-crawler curated-crawler; do aws glue start-craw
 aws glue list-crawls --crawler-name curated-crawler --query "Crawls[0].State" --output text
 ```
 Expected tables: `thornquist_trusted.sales_lines`, `customers` · `thornquist_quality.quarantined_sales`, `dq_metrics`, `rule_self_test` · `thornquist_curated.sales_fact`, `customer_dim`.
-📸 Glue → Tables, filtered to `thornquist_`.
 
 ## 5. Athena workgroup (skip if `analyst-wg` already exists)
 
@@ -83,11 +80,10 @@ Expected tables: `thornquist_trusted.sales_lines`, `customers` · `thornquist_qu
 aws athena create-work-group --name analyst-wg --configuration \
   "ResultConfiguration={OutputLocation=s3://$BUCKET/athena-results/analyst/},EnforceWorkGroupConfiguration=true,PublishCloudWatchMetricsEnabled=true,BytesScannedCutoffPerQuery=1073741824"
 ```
-📸 Athena → Workgroups → analyst-wg (shows the 1 GB per-query limit).
 
 ## 6. Queries (Athena query editor, workgroup **analyst-wg**)
 
-Run each query separately; 📸 every result.
+Run each query separately;
 - `sql/20_quality_queries.sql`: QA1 (why rows were quarantined + revenue at risk), QA2 (cost of bad data), QA3 (self-test), QA4 (the rejected rows)
 - `sql/10_business_queries.sql`: Q1–Q6
 
@@ -97,7 +93,7 @@ Expected headline from Q1: online average order **$469.06** vs in-store **$204.7
 
 1. Run B1 and B2a/B2b from `sql/30_benchmark.sql` (creates the two benchmark tables).
 2. Run each test query on all three tables. For each, open **Query stats** and note *Data scanned* and *Run time*.
-3. Fill the table in `docs/benchmark.md`. 📸 The Query stats of Test 1 on CSV vs on `sales_fact`.
+3. Fill the table in `docs/benchmark.md`.
 
 
 ## 8. Bucket policy (governance, enforced)
@@ -106,14 +102,14 @@ Expected headline from Q1: online average order **$469.06** vs in-store **$204.7
 aws s3api put-bucket-policy --bucket $BUCKET --policy file://governance/bucket_policy.json
 aws s3 ls s3://$BUCKET/raw/ --recursive | head -3          # must still list files
 ```
-📸 S3 → bucket → Permissions → Bucket policy.
-If anything says **Access Denied**: `aws s3api delete-bucket-policy --bucket $BUCKET` and tell Sukrutha.
+If anything says **Access Denied**: `aws s3api delete-bucket-policy --bucket $BUCKET`.
 
 ---
 
-## Live quarantine demo (during the presentation)
+## Quality gate test with a bad batch
 
-Start this **at the beginning of Ruchi's section** so it finishes in time (~4 minutes total):
+`data/demo/pos_sales_2026-08-30_terminal7_late_batch.csv` is a late file from a misconfigured till:
+8 rows, each breaking exactly one rule. Running it through the pipeline proves the gate end to end.
 
 ```bash
 D=$(date +%F)
@@ -128,13 +124,12 @@ aws glue start-crawler --name quality-crawler
 Then in Athena run QA1 and QA4. Expected: 8 new POS rejects, one per rule (duplicate, quantity, price, date,
 customer, category, missing price, region), and **trusted still has 1,601 rows**.
 
-**After the demo**, remove the batch so the data is clean again:
+Afterwards, remove the batch and re-run the jobs so the data returns to the baseline (104 quarantined):
 ```bash
 aws s3 rm s3://$BUCKET/raw/pos/ingest_date=$D/pos_sales_2026-08-30_terminal7_late_batch.csv
 aws s3 rm s3://$BUCKET/landing/pos/pos_sales_2026-08-30_terminal7_late_batch.csv
+aws glue start-job-run --job-name raw-to-staging   # then dq-gate, then quality-crawler, as above
 ```
-
-Backup: record this whole sequence on Thursday.
 
 ## Before logging off
 ```bash
