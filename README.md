@@ -17,6 +17,14 @@ Athena and Lake Formation in AWS Academy Learner Lab (us-east-1, bucket `thornqu
 | Curated Parquet vs CSV (same query) | **98.6% less data scanned** (3.03 KB vs 224.43 KB) |
 | Pipeline cost per weekly run | about **$0.10–0.15**, nothing always-on |
 
+## Team and contributions
+
+| Team member | Built |
+|---|---|
+| **Ruchi Patel** | S3 bucket and zones · three ingestion patterns (Lambda `ecom-ingest`, `upload_pos.sh`, Glue `customer-ingest` + weekly schedule) · raw Data Catalog and manual POS table · Glue ETL `raw-to-staging` (6 schema conflicts) · EventBridge + SNS failure alerts · setup steps 1–7 |
+| **Sukrutha Srirangam** | Governance package (IAM policies, bucket policy, Lake Formation grants, RACI, Athena workgroup) · Glue job `dq-gate` (7 rules, quarantine, rule self-test, cost of bad data) · Glue job `trusted-to-curated` · business and quality queries · benchmark queries · dashboard notebook · setup part 2 |
+| **Both** | Architecture design and diagram · end-to-end runs in AWS · CSV vs Parquet benchmark run · evidence screenshots · demo recordings · presentation |
+
 ## Architecture
 
 ![Thornquist data lake architecture](docs/thornquist_architecture.png)
